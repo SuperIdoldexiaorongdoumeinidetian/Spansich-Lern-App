@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* Dunkler Modus über die Klasse "dark" am <html>-Element
+   (statt automatisch über die Systemeinstellung) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+  /* Deutsche UI und spanische Wörter in der Systemschrift. Anders als bei
+     chinesischen Zeichen braucht Spanisch keine eigene Schrift – das
+     lateinische Alphabet (inkl. á, é, í, ó, ú, ñ, ¿, ¡) ist überall enthalten. */
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* Spanische Wörter: leicht hervorgehoben, damit sie sich vom deutschen
+   UI-Text abheben (Gegenstück zur "hanzi"-Klasse der Chinesisch-App). */
+.es {
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
