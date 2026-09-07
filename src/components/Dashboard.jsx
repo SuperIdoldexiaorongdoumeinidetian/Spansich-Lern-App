@@ -3,6 +3,7 @@
 import { useMemo } from "react";
 import {
   LESSONS,
+  lessonLabel,
   DIRECTIONS,
   vocabCards,
   srsKey,
@@ -132,8 +133,11 @@ export default function Dashboard({ state, onReset }) {
           <div className="space-y-1.5">
             {lessonProgress.map(({ lesson, learned, total }) => (
               <div key={lesson} className="flex items-center gap-2 text-sm">
-                <span className="w-28 shrink-0 truncate text-zinc-600 dark:text-zinc-300">
-                  {lesson}
+                <span
+                  className="w-44 shrink-0 truncate text-zinc-600 sm:w-72 dark:text-zinc-300"
+                  title={lessonLabel(lesson)}
+                >
+                  {lessonLabel(lesson)}
                 </span>
                 <div className="h-2.5 flex-1 overflow-hidden rounded-full bg-zinc-200 dark:bg-zinc-700">
                   <div

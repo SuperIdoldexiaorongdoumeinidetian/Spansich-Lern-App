@@ -1,5 +1,5 @@
 // Hauptkomponente: hält den App-Zustand (localStorage) und schaltet
-// zwischen den fünf Bereichen um. Bewusst ohne Router-Bibliothek —
+// zwischen den sechs Bereichen um. Bewusst ohne Router-Bibliothek —
 // für eine lokale Single-Page-App reicht einfacher State.
 import { useEffect, useState } from "react";
 import { useAppState } from "./lib/store";
@@ -9,6 +9,7 @@ import Flashcards from "./components/Flashcards";
 import Quiz from "./components/Quiz";
 import VocabList from "./components/VocabList";
 import Grammar from "./components/Grammar";
+import Conjugation from "./components/Conjugation";
 import SyncBar from "./components/SyncBar";
 
 const TABS = [
@@ -17,6 +18,7 @@ const TABS = [
   { id: "quiz", label: "Quiz", icon: "❓" },
   { id: "vocab", label: "Vokabeln", icon: "📖" },
   { id: "grammar", label: "Grammatik", icon: "📝" },
+  { id: "verbs", label: "Verben", icon: "🔁" },
 ];
 
 export default function App() {
@@ -81,6 +83,7 @@ export default function App() {
         {tab === "quiz" && <Quiz state={state} setState={setState} />}
         {tab === "vocab" && <VocabList state={state} />}
         {tab === "grammar" && <Grammar />}
+        {tab === "verbs" && <Conjugation state={state} setState={setState} />}
       </main>
 
       {/* Untere Navigation (mobile-first) */}

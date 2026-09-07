@@ -1,6 +1,12 @@
 // Auswahl der Lern-Decks (Lektionen), der Kartenrichtungen und des
 // Eigennamen-Schalters. Wird von Flashcards und Quiz genutzt.
-import { LESSONS, lessonGroups, hasExamRelevant, DIRECTIONS } from "../lib/deck";
+import {
+  LESSONS,
+  lessonGroups,
+  lessonTitle,
+  hasExamRelevant,
+  DIRECTIONS,
+} from "../lib/deck";
 
 // Gruppen werden aus den Daten abgeleitet (siehe lessonGroups in deck.js):
 // "1-1", "1-2" → "Lektion 1"; andere Namen bilden eine eigene Gruppe.
@@ -70,7 +76,11 @@ export default function DeckPicker({
                         : "bg-zinc-200 text-zinc-700 hover:bg-zinc-300 dark:bg-zinc-700 dark:text-zinc-200 dark:hover:bg-zinc-600"
                     }`}
                   >
-                    {d}
+                    <span className="font-medium">{d}</span>
+                    {/* Lektionstitel aus lessons.json, falls vorhanden */}
+                    {lessonTitle(d) && (
+                      <span className="ml-1 opacity-80">{lessonTitle(d)}</span>
+                    )}
                   </button>
                 ))}
               </div>

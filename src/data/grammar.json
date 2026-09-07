@@ -1,1 +1,119 @@
-[]
+[
+  {
+    "id": "artikel-genus",
+    "title": "Artikel und Genus",
+    "lesson": "1-1",
+    "explanation": "Jedes Substantiv ist maskulin oder feminin. Der bestimmte Artikel ist el (m) / la (f), im Plural los / las. Der unbestimmte Artikel ist un / una (Plural unos / unas).\n\nFaustregel: Wörter auf -o sind meist maskulin (el libro), Wörter auf -a meist feminin (la casa). Ausnahmen gibt es aber: el día, la mano, el problema.",
+    "table": {
+      "headers": ["", "maskulin", "feminin"],
+      "rows": [
+        ["bestimmt, Singular", "el amigo", "la amiga"],
+        ["bestimmt, Plural", "los amigos", "las amigas"],
+        ["unbestimmt, Singular", "un amigo", "una amiga"],
+        ["unbestimmt, Plural", "unos amigos", "unas amigas"]
+      ]
+    },
+    "examples": [
+      { "es": "El café está rico.", "de": "Der Kaffee ist lecker." },
+      { "es": "Una ciudad grande.", "de": "Eine große Stadt." }
+    ],
+    "exercises": [
+      { "prompt": "___ casa es bonita.", "answer": "la", "hint": "casa ist feminin" },
+      { "prompt": "Quiero ___ café.", "answer": "un", "hint": "café ist maskulin, unbestimmt" },
+      { "prompt": "___ amigos de Diego", "answer": "los", "hint": "Plural, maskulin" }
+    ]
+  },
+  {
+    "id": "ser-vs-estar",
+    "title": "ser vs. estar",
+    "lesson": "1-2",
+    "explanation": "Beide heißen „sein\", werden aber unterschiedlich benutzt.\n\nser: dauerhafte Eigenschaften, Herkunft, Beruf, Uhrzeit. → Soy alemán. Es médico. Son las tres.\n\nestar: Ort, Zustand, Befinden, Verlaufsform. → Estoy en casa. Está cansado. Estamos comiendo.",
+    "table": {
+      "headers": ["", "ser", "estar"],
+      "rows": [
+        ["yo", "soy", "estoy"],
+        ["tú", "eres", "estás"],
+        ["él / ella / usted", "es", "está"],
+        ["nosotros/-as", "somos", "estamos"],
+        ["ellos / ellas / ustedes", "son", "están"]
+      ]
+    },
+    "examples": [
+      { "es": "Soy de México.", "de": "Ich komme aus Mexiko." },
+      { "es": "Estoy en la Ciudad de México.", "de": "Ich bin in Mexiko-Stadt." },
+      { "es": "La comida está muy rica.", "de": "Das Essen ist sehr lecker (gerade jetzt)." }
+    ],
+    "exercises": [
+      { "prompt": "Yo ___ estudiante. (ser/estar)", "answer": "soy", "hint": "Beruf/Rolle → ser" },
+      { "prompt": "Nosotros ___ en la calle. (ser/estar)", "answer": "estamos", "hint": "Ort → estar" },
+      { "prompt": "¿Cómo ___ tú? (ser/estar)", "answer": "estás", "hint": "Befinden → estar; Akzent nicht vergessen" },
+      { "prompt": "Ellos ___ de Guadalajara. (ser/estar)", "answer": "son", "hint": "Herkunft → ser" }
+    ]
+  },
+  {
+    "id": "presente-regelmaessig",
+    "title": "Presente: regelmäßige Verben",
+    "lesson": "1-3",
+    "explanation": "Drei Verbgruppen nach der Endung des Infinitivs: -ar, -er, -ir. Der Stamm bleibt, die Endung zeigt die Person. Das Subjektpronomen (yo, tú, …) lässt man meist weg, weil die Endung es schon verrät.\n\nAlle Formen aller Verben mit Übungen: Tab „Verben\".",
+    "table": {
+      "headers": ["", "hablar", "comer", "vivir"],
+      "rows": [
+        ["yo", "hablo", "como", "vivo"],
+        ["tú", "hablas", "comes", "vives"],
+        ["él / ella / usted", "habla", "come", "vive"],
+        ["nosotros/-as", "hablamos", "comemos", "vivimos"],
+        ["ellos / ellas / ustedes", "hablan", "comen", "viven"]
+      ]
+    },
+    "examples": [
+      { "es": "Hablo español y alemán.", "de": "Ich spreche Spanisch und Deutsch." },
+      { "es": "¿Dónde vives?", "de": "Wo wohnst du?" }
+    ],
+    "exercises": [
+      { "prompt": "Nosotros ___ tacos. (comer)", "answer": "comemos" },
+      { "prompt": "Ella ___ en Monterrey. (vivir)", "answer": "vive" },
+      { "prompt": "¿Tú ___ inglés? (hablar)", "answer": "hablas" }
+    ]
+  },
+  {
+    "id": "fragewoerter",
+    "title": "Fragewörter",
+    "lesson": "2-1",
+    "explanation": "Fragewörter tragen immer einen Akzent. Fragen beginnen mit ¿ und enden mit ?.",
+    "table": {
+      "headers": ["Spanisch", "Deutsch"],
+      "rows": [
+        ["¿qué?", "was?"],
+        ["¿quién?", "wer?"],
+        ["¿dónde?", "wo?"],
+        ["¿cuándo?", "wann?"],
+        ["¿cómo?", "wie?"],
+        ["¿por qué?", "warum?"],
+        ["¿cuánto?", "wie viel?"]
+      ]
+    },
+    "examples": [
+      { "es": "¿Cuánto cuesta?", "de": "Wie viel kostet das?" },
+      { "es": "¿Por qué no vienes hoy?", "de": "Warum kommst du heute nicht?" }
+    ],
+    "exercises": [
+      { "prompt": "¿___ vives? — En Puebla.", "answer": "dónde", "hint": "wo? – mit Akzent" },
+      { "prompt": "¿___ te llamas? — Sofía.", "answer": "cómo", "hint": "wie?" },
+      { "prompt": "¿___ es tu cumpleaños? — El lunes.", "answer": "cuándo", "hint": "wann?" }
+    ]
+  },
+  {
+    "id": "mexiko-anrede",
+    "title": "ustedes statt vosotros",
+    "lesson": "Mexiko",
+    "explanation": "In Mexiko (und ganz Lateinamerika) gibt es kein „vosotros\". Für „ihr\" sagt man immer „ustedes\" – mit der Verbform der 3. Person Plural. Das gilt für Freunde genauso wie für Fremde.\n\nIm Singular unterscheidet man weiterhin tú (du) und usted (Sie).",
+    "examples": [
+      { "es": "¿Ustedes son de Alemania?", "de": "Seid ihr aus Deutschland? / Sind Sie aus Deutschland?" },
+      { "es": "¿Quieren un café?", "de": "Wollt ihr einen Kaffee?" }
+    ],
+    "exercises": [
+      { "prompt": "¿___ viven aquí? (ihr)", "answer": "ustedes" },
+      { "prompt": "Ustedes ___ muy amables. (ser)", "answer": "son", "hint": "3. Person Plural" }
+    ]
+  }
+]
