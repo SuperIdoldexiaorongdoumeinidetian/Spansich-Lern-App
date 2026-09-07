@@ -1,0 +1,159 @@
+[
+  {
+    "infinitive": "ser",
+    "meaning": "sein (dauerhaft: Eigenschaft, Herkunft, Beruf)",
+    "lesson": "Basis",
+    "forms": {
+      "presente": ["soy", "eres", "es", "somos", "son"],
+      "preterito": ["fui", "fuiste", "fue", "fuimos", "fueron"],
+      "imperfecto": ["era", "eras", "era", "éramos", "eran"]
+    }
+  },
+  {
+    "infinitive": "estar",
+    "meaning": "sein (Zustand, Ort, Befinden)",
+    "lesson": "Basis",
+    "forms": {
+      "presente": ["estoy", "estás", "está", "estamos", "están"],
+      "preterito": ["estuve", "estuviste", "estuvo", "estuvimos", "estuvieron"]
+    }
+  },
+  {
+    "infinitive": "tener",
+    "meaning": "haben",
+    "lesson": "Basis",
+    "forms": {
+      "presente": ["tengo", "tienes", "tiene", null, "tienen"],
+      "preterito": ["tuve", "tuviste", "tuvo", "tuvimos", "tuvieron"],
+      "futuro": ["tendré", "tendrás", "tendrá", "tendremos", "tendrán"],
+      "condicional": ["tendría", "tendrías", "tendría", "tendríamos", "tendrían"]
+    }
+  },
+  {
+    "infinitive": "ir",
+    "meaning": "gehen, fahren",
+    "lesson": "Basis",
+    "forms": {
+      "presente": ["voy", "vas", "va", "vamos", "van"],
+      "preterito": ["fui", "fuiste", "fue", "fuimos", "fueron"],
+      "imperfecto": ["iba", "ibas", "iba", "íbamos", "iban"]
+    }
+  },
+  {
+    "infinitive": "hacer",
+    "meaning": "machen, tun",
+    "lesson": "Basis",
+    "forms": {
+      "presente": ["hago", null, null, null, null],
+      "preterito": ["hice", "hiciste", "hizo", "hicimos", "hicieron"],
+      "futuro": ["haré", "harás", "hará", "haremos", "harán"],
+      "condicional": ["haría", "harías", "haría", "haríamos", "harían"]
+    }
+  },
+  {
+    "infinitive": "poder",
+    "meaning": "können",
+    "lesson": "Basis",
+    "forms": {
+      "presente": ["puedo", "puedes", "puede", null, "pueden"],
+      "preterito": ["pude", "pudiste", "pudo", "pudimos", "pudieron"],
+      "futuro": ["podré", "podrás", "podrá", "podremos", "podrán"],
+      "condicional": ["podría", "podrías", "podría", "podríamos", "podrían"]
+    }
+  },
+  {
+    "infinitive": "querer",
+    "meaning": "wollen, mögen",
+    "lesson": "Basis",
+    "forms": {
+      "presente": ["quiero", "quieres", "quiere", null, "quieren"],
+      "preterito": ["quise", "quisiste", "quiso", "quisimos", "quisieron"],
+      "futuro": ["querré", "querrás", "querrá", "querremos", "querrán"],
+      "condicional": ["querría", "querrías", "querría", "querríamos", "querrían"]
+    }
+  },
+  {
+    "infinitive": "decir",
+    "meaning": "sagen",
+    "lesson": "Basis",
+    "forms": {
+      "presente": ["digo", "dices", "dice", null, "dicen"],
+      "preterito": ["dije", "dijiste", "dijo", "dijimos", "dijeron"],
+      "futuro": ["diré", "dirás", "dirá", "diremos", "dirán"],
+      "condicional": ["diría", "dirías", "diría", "diríamos", "dirían"]
+    }
+  },
+  {
+    "infinitive": "venir",
+    "meaning": "kommen",
+    "lesson": "Basis",
+    "forms": {
+      "presente": ["vengo", "vienes", "viene", null, "vienen"],
+      "preterito": ["vine", "viniste", "vino", "vinimos", "vinieron"],
+      "futuro": ["vendré", "vendrás", "vendrá", "vendremos", "vendrán"],
+      "condicional": ["vendría", "vendrías", "vendría", "vendríamos", "vendrían"]
+    }
+  },
+  {
+    "infinitive": "saber",
+    "meaning": "wissen, können (Fähigkeit)",
+    "lesson": "Basis",
+    "forms": {
+      "presente": ["sé", null, null, null, null],
+      "preterito": ["supe", "supiste", "supo", "supimos", "supieron"],
+      "futuro": ["sabré", "sabrás", "sabrá", "sabremos", "sabrán"],
+      "condicional": ["sabría", "sabrías", "sabría", "sabríamos", "sabrían"]
+    }
+  },
+  {
+    "infinitive": "poner",
+    "meaning": "stellen, legen, setzen",
+    "lesson": "Basis",
+    "forms": {
+      "presente": ["pongo", null, null, null, null],
+      "preterito": ["puse", "pusiste", "puso", "pusimos", "pusieron"],
+      "futuro": ["pondré", "pondrás", "pondrá", "pondremos", "pondrán"],
+      "condicional": ["pondría", "pondrías", "pondría", "pondríamos", "pondrían"]
+    }
+  },
+  {
+    "infinitive": "salir",
+    "meaning": "ausgehen, hinausgehen, abfahren",
+    "lesson": "Basis",
+    "forms": {
+      "presente": ["salgo", null, null, null, null],
+      "futuro": ["saldré", "saldrás", "saldrá", "saldremos", "saldrán"],
+      "condicional": ["saldría", "saldrías", "saldría", "saldríamos", "saldrían"]
+    }
+  },
+  {
+    "infinitive": "ver",
+    "meaning": "sehen",
+    "lesson": "Basis",
+    "forms": {
+      "presente": ["veo", null, null, null, null],
+      "preterito": ["vi", "viste", "vio", "vimos", "vieron"],
+      "imperfecto": ["veía", "veías", "veía", "veíamos", "veían"]
+    }
+  },
+  {
+    "infinitive": "dar",
+    "meaning": "geben",
+    "lesson": "Basis",
+    "forms": {
+      "presente": ["doy", null, null, null, null],
+      "preterito": ["di", "diste", "dio", "dimos", "dieron"]
+    }
+  },
+  { "infinitive": "hablar", "meaning": "sprechen, reden", "lesson": "Basis" },
+  { "infinitive": "trabajar", "meaning": "arbeiten", "lesson": "Basis" },
+  { "infinitive": "comer", "meaning": "essen", "lesson": "Basis" },
+  { "infinitive": "aprender", "meaning": "lernen", "lesson": "Basis" },
+  { "infinitive": "vivir", "meaning": "leben, wohnen", "lesson": "Basis" },
+  { "infinitive": "escribir", "meaning": "schreiben", "lesson": "Basis" },
+  { "infinitive": "buscar", "meaning": "suchen", "lesson": "Basis" },
+  { "infinitive": "llegar", "meaning": "ankommen", "lesson": "Basis" },
+  { "infinitive": "empezar", "meaning": "anfangen", "lesson": "Basis",
+    "forms": { "presente": ["empiezo", "empiezas", "empieza", null, "empiezan"] } },
+  { "infinitive": "leer", "meaning": "lesen", "lesson": "Basis" }
+]

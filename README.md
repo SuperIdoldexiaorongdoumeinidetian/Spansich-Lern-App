@@ -23,7 +23,7 @@ Dann die angezeigte Adresse im Browser öffnen (normalerweise
 http://localhost:5173). Die App ist mobile-first — am Handy einfach die
 IP-Adresse des Rechners verwenden (`npm run dev -- --host`).
 
-## Die fünf Bereiche
+## Die sechs Bereiche
 
 | Tab | Was er macht |
 |---|---|
@@ -32,6 +32,7 @@ IP-Adresse des Rechners verwenden (`npm run dev -- --host`).
 | **Quiz** | Multiple Choice (beide Richtungen) und „Deutsch → Spanisch schreiben" (Texteingabe). Beeinflusst den Lernstand nicht |
 | **Vokabeln** | Nachschlage-Liste mit Suche (akzent-unabhängig, Spanisch oder Deutsch), Lektionsfilter, Aussprache, Lernstatus und Beispielsätzen |
 | **Grammatik** | Grammatikthemen mit Erklärung, Tabellen (z. B. Konjugation), Beispielsätzen und Lückentext-Übungen |
+| **Verben** | Konjugationstrainer (Verb + Person + Zeit → Form eintippen) und Nachschlage-Tabelle aller Formen mit regelmäßigen Endungen. Beeinflusst den Lernstand nicht |
 
 **Akzent-Prüfung:** Bei Texteingaben gilt eine Antwort als *richtig*, wenn
 sie exakt stimmt (Artikel „el/la" darf weggelassen werden, Groß-/Klein-
@@ -111,6 +112,45 @@ Absätze in `explanation` durch eine Leerzeile (`\n\n`) trennen. Bei
 `exercises` wird die Antwort mit derselben Akzent-Prüfung wie im Quiz
 verglichen; `hint` erscheint bei falscher Antwort neben der Lösung.
 
+## Verben eintragen (`src/data/verbs.json`)
+
+Ein JSON-Array mit einem Objekt pro Verb. Pflicht ist nur `infinitive`
+(Infinitiv auf -ar, -er oder -ir). Regelmäßige Formen bildet die App selbst,
+nur unregelmäßige Formen müssen unter `forms` stehen:
+
+```json
+[
+  { "infinitive": "trabajar", "meaning": "arbeiten", "lesson": "1-1" },
+  {
+    "infinitive": "tener",
+    "meaning": "haben",
+    "lesson": "1-1",
+    "forms": {
+      "presente": ["tengo", "tienes", "tiene", null, "tienen"],
+      "preterito": ["tuve", "tuviste", "tuvo", "tuvimos", "tuvieron"]
+    }
+  }
+]
+```
+
+| Feld | Bedeutung |
+|---|---|
+| `infinitive` | Infinitiv, z. B. `"hablar"` |
+| `meaning` | deutsche Bedeutung (optional; fehlt sie, wird das Verb in `vocab.json` nachgeschlagen) |
+| `lesson` | Lektion/Gruppe für den Filter im Trainer (optional) |
+| `forms` | nur die unregelmäßigen Formen, je Zeit ein Array mit 5 Einträgen in der Reihenfolge yo, tú, él/ella/usted, nosotros, ellos/ustedes. `null` = diese Form ist regelmäßig. Fehlt eine Zeit ganz, ist sie komplett regelmäßig |
+
+Zeiten (Schlüssel in `forms`): `presente`, `preterito` (Pretérito indefinido),
+`imperfecto`, `futuro`, `condicional`. Es gibt bewusst kein *vosotros*: In
+Mexiko sagt man *ustedes*, mit derselben Form wie *ellos*.
+
+Die App kennt zwei Rechtschreibregeln von selbst: Verben auf -car/-gar/-zar
+bekommen im Pretérito in der yo-Form qu/gu/c (busqué, llegué, empecé), und
+-er/-ir-Verben mit Vokal am Stammende (leer, creer, oír) bekommen leyó/leyeron
+sowie leíste/leímos. Alles andere (Stammwechsel wie e→ie, Kurzformen wie
+tendré) gehört in `forms`. Die mitgelieferte Startliste enthält die
+häufigsten unregelmäßigen Verben und kann beliebig ergänzt oder ersetzt werden.
+
 ## Cloud-Sync (optional, Supabase)
 
 Eine `.env` mit `VITE_SUPABASE_URL` und `VITE_SUPABASE_ANON_KEY` anlegen
@@ -148,6 +188,7 @@ lokalen Stand zusammengeführt (nie überschrieben).
 src/
   data/vocab.json        ← Vokabelliste (noch leer)
   data/grammar.json      ← Grammatikthemen (noch leer)
+  data/verbs.json        ← Verben für den Konjugationstrainer (Startliste)
   lib/srs.js             ← Spaced-Repetition-Algorithmus (identisch zur Chinesisch-App)
   lib/store.js           ← localStorage-Persistenz, Streak, Tageslog, Merge
   lib/sync.js            ← Supabase-Cloud-Sync
@@ -155,12 +196,12 @@ src/
   lib/spanish.js         ← Vergleich spanischer Eingaben (Akzente, Artikel, Alternativen)
   lib/speech.js          ← Aussprache (Web Speech API, bevorzugt es-MX)
   lib/deck.js            ← Karten/Decks aus den Daten, Session-Logik, Quiz-Optionen
-  components/            ← die fünf Ansichten + Deck-Auswahl + Kleinteile
+  lib/conjugation.js     ← Konjugationsregeln, Zeiten/Personen, Trainer-Fragen
+  components/            ← die sechs Ansichten + Deck-Auswahl + Kleinteile
   App.jsx                ← Navigation, dunkler Modus, Fortschritt-Reset
 ```
 
 ## Mögliche Erweiterungen (bei Bedarf einzeln anfragen)
 
-- Konjugationstrainer (Verb + Person + Zeit → Form eintippen)
 - Export/Import des Lernstands als JSON-Datei
 - Hörverstehen: Wort nur vorlesen lassen, dann schreiben

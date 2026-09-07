@@ -24,6 +24,10 @@ const DEFAULT_STATE = {
     decks: [], // ausgewählte Lektionen (leer, solange es noch keine Vokabeln gibt)
     autoSpeak: false, // Aussprache beim Aufdecken automatisch abspielen
     onlyHighlighted: false, // nur prüfungsrelevante Vokabeln
+    // Konjugationstrainer: gewählte Zeiten und Verb-Filter (Tab „Verben")
+    conjTenses: ["presente"],
+    conjFilter: "alle", // alle | irregular | regular
+    conjLesson: "alle",
   },
 };
 
