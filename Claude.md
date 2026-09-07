@@ -10,11 +10,13 @@ Akzent-Prüfung.
 Der Nutzer ist kein erfahrener Entwickler — bei wichtigen Entscheidungen kurz das
 **Warum** erklären. UI und Inhalte sind auf **Deutsch**.
 
-**Stand:** `vocab.json` und `grammar.json` enthalten **Beispieldaten zum
-Testen** (52 Vokabeln in den Lektionen 1-1, 1-2, 1-3, 2-1 und „Mexiko";
-5 Grammatikthemen). Sie decken alle Felder ab und werden später durch die
-echten Listen ersetzt. Die App muss auch mit leeren Listen sauber laufen
-(Hinweise statt Fehler) und darf beim Befüllen keine Code-Änderung brauchen.
+**Stand:** `vocab.json` enthält die echten Vokabellisten (944 Einträge):
+Lektionen 1-1 bis 1-20 = Alltag, Lektionen 2-1 bis 2-12 = Prozessmanagement /
+Enterprise Architecture Management. `lessons.json` liefert die Titel dazu,
+`verbs.json` hat 112 Verben mit Lektionszuordnung. `grammar.json` enthält
+weiterhin **Beispieldaten** (5 Themen). Die App muss auch mit leeren Listen
+sauber laufen (Hinweise statt Fehler) und darf beim Befüllen keine
+Code-Änderung brauchen.
 
 ## Tech-Stack
 
@@ -31,9 +33,10 @@ echten Listen ersetzt. Die App muss auch mit leeren Listen sauber laufen
 ```
 src/
   data/
-    vocab.json      ← Vokabeln (Beispieldaten; Schema siehe unten)
+    vocab.json      ← Vokabeln (944 Einträge, Lektionen 1-x Alltag, 2-x Prozessmanagement/EAM)
+    lessons.json    ← Lektionstitel ({lesson, title}); optional, nur Anzeige
     grammar.json    ← Grammatikthemen (Beispieldaten; Schema siehe unten)
-    verbs.json      ← Verben für den Konjugationstrainer (ca. 80 Einträge; Schema in der README)
+    verbs.json      ← Verben für den Konjugationstrainer (112 Einträge; Schema in der README)
   lib/
     deck.js         ← Karten-/Deck-Aufbau aus den Daten, Session-Logik, Quiz-Optionen
     srs.js          ← Spaced-Repetition-Algorithmus (Anki-angelehnt, KEIN SM-2) — unverändert
@@ -70,6 +73,11 @@ Vokabel-Einträge (`vocab.json`), Pflicht: `spanish`, `meaning`, `lesson`:
   UI-Elemente erscheinen nur, wenn `hasExamRelevant` in `deck.js` true ist)
 - `example` / `exampleMeaning` — Beispielsatz spanisch/deutsch (optional)
 - `note` — freier Hinweis (optional); `mexico` — `true` = typisch mexikanisch
+
+Lektionstitel (`lessons.json`): `[{ "lesson": "1-1", "title": "Begrüßung & Höflichkeit" }]`.
+`lessonTitle()` / `lessonLabel()` in `deck.js` liefern Titel bzw.
+„1-1 · Titel" für Deck-Auswahl, Dashboard und Lektionsfilter; ohne Eintrag
+wird nur die Nummer angezeigt.
 
 Grammatik-Einträge (`grammar.json`), Pflicht: `id`, `title`; optional
 `lesson`, `explanation` (Absätze durch Leerzeile), `table` ({headers, rows}),

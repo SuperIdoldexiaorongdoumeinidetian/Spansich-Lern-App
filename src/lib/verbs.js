@@ -9,7 +9,13 @@ import { prepareVerbs } from "./conjugation";
 export const VERBS = prepareVerbs(verbsData);
 
 // Lektionen, zu denen es Verben gibt (leer, solange keine `lesson`-Felder
-// gesetzt sind – dann blendet die UI den Lektionsfilter aus).
+// gesetzt sind – dann blendet die UI den Lektionsfilter aus). Sortiert nach
+// Lektionsnummer ("1-12" vor "1-15" vor "2-12"), weil die Verben in
+// verbs.json nicht nach Lektion geordnet sind; andere Namen kommen ans Ende.
+const lessonSortKey = (l) => {
+  const m = /^(\d+)-(\d+)$/.exec(l);
+  return m ? Number(m[1]) * 1000 + Number(m[2]) : Number.MAX_SAFE_INTEGER;
+};
 export const VERB_LESSONS = [
   ...new Set(VERBS.map((v) => v.lesson).filter(Boolean)),
-];
+].sort((a, b) => lessonSortKey(a) - lessonSortKey(b) || a.localeCompare(b));

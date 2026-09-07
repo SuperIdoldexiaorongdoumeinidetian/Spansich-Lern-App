@@ -2,6 +2,7 @@
   {
     "infinitive": "ser",
     "meaning": "sein (Eigenschaft, Herkunft, Beruf)",
+    "lesson": "1-15",
     "forms": {
       "presente": ["soy", "eres", "es", "somos", "sois", "son"],
       "preterito": ["fui", "fuiste", "fue", "fuimos", "fuisteis", "fueron"],
@@ -12,6 +13,7 @@
   {
     "infinitive": "estar",
     "meaning": "sein (Ort, Zustand, Befinden)",
+    "lesson": "1-15",
     "preteriteStem": "estuv",
     "forms": {
       "presente": ["estoy", "estás", "está", "estamos", "estáis", "están"],
@@ -21,6 +23,7 @@
   {
     "infinitive": "tener",
     "meaning": "haben",
+    "lesson": "1-15",
     "stemChange": "e>ie",
     "yo": "tengo",
     "preteriteStem": "tuv",
@@ -40,6 +43,7 @@
   {
     "infinitive": "hacer",
     "meaning": "machen, tun",
+    "lesson": "1-15",
     "yo": "hago",
     "preteriteStem": "hic",
     "futureStem": "har",
@@ -49,6 +53,7 @@
   {
     "infinitive": "ir",
     "meaning": "gehen, fahren",
+    "lesson": "1-15",
     "gerund": "yendo",
     "forms": {
       "presente": ["voy", "vas", "va", "vamos", "vais", "van"],
@@ -61,6 +66,7 @@
   {
     "infinitive": "poder",
     "meaning": "können, dürfen",
+    "lesson": "1-15",
     "stemChange": "o>ue",
     "preteriteStem": "pud",
     "futureStem": "podr",
@@ -69,6 +75,7 @@
   {
     "infinitive": "querer",
     "meaning": "wollen, mögen, lieben",
+    "lesson": "1-15",
     "stemChange": "e>ie",
     "preteriteStem": "quis",
     "futureStem": "querr"
@@ -76,6 +83,7 @@
   {
     "infinitive": "decir",
     "meaning": "sagen",
+    "lesson": "1-15",
     "stemChange": "e>i",
     "yo": "digo",
     "preteriteStem": "dij",
@@ -85,6 +93,7 @@
   {
     "infinitive": "venir",
     "meaning": "kommen",
+    "lesson": "1-15",
     "stemChange": "e>ie",
     "yo": "vengo",
     "preteriteStem": "vin",
@@ -93,6 +102,7 @@
   {
     "infinitive": "saber",
     "meaning": "wissen, können (gelernt)",
+    "lesson": "1-15",
     "yo": "sé",
     "preteriteStem": "sup",
     "futureStem": "sabr",
@@ -111,12 +121,14 @@
   {
     "infinitive": "salir",
     "meaning": "hinausgehen, ausgehen, abfahren",
+    "lesson": "1-15",
     "yo": "salgo",
     "futureStem": "saldr"
   },
   {
     "infinitive": "ver",
     "meaning": "sehen",
+    "lesson": "1-15",
     "yo": "veo",
     "participle": "visto",
     "forms": {
@@ -135,7 +147,7 @@
       "subjuntivo": ["dé", "des", "dé", "demos", "deis", "den"]
     }
   },
-  { "infinitive": "conocer", "meaning": "kennen, kennenlernen" },
+  { "infinitive": "conocer", "meaning": "kennen, kennenlernen", "lesson": "1-15" },
   {
     "infinitive": "traer",
     "meaning": "bringen, mitbringen",
@@ -158,25 +170,26 @@
   {
     "infinitive": "manejar",
     "meaning": "Auto fahren",
+    "lesson": "1-12",
     "mexico": true,
     "note": "In Mexiko üblich statt conducir."
   },
-  { "infinitive": "hablar", "meaning": "sprechen, reden" },
-  { "infinitive": "comer", "meaning": "essen" },
-  { "infinitive": "vivir", "meaning": "leben, wohnen" },
-  { "infinitive": "trabajar", "meaning": "arbeiten" },
-  { "infinitive": "estudiar", "meaning": "lernen, studieren" },
-  { "infinitive": "aprender", "meaning": "lernen" },
-  { "infinitive": "escribir", "meaning": "schreiben", "participle": "escrito" },
-  { "infinitive": "leer", "meaning": "lesen" },
+  { "infinitive": "hablar", "meaning": "sprechen, reden", "lesson": "1-15" },
+  { "infinitive": "comer", "meaning": "essen", "lesson": "1-15" },
+  { "infinitive": "vivir", "meaning": "leben, wohnen", "lesson": "1-15" },
+  { "infinitive": "trabajar", "meaning": "arbeiten", "lesson": "1-15" },
+  { "infinitive": "estudiar", "meaning": "lernen, studieren", "lesson": "1-15" },
+  { "infinitive": "aprender", "meaning": "lernen", "lesson": "1-15" },
+  { "infinitive": "escribir", "meaning": "schreiben", "lesson": "1-15", "participle": "escrito" },
+  { "infinitive": "leer", "meaning": "lesen", "lesson": "1-15" },
   { "infinitive": "creer", "meaning": "glauben" },
-  { "infinitive": "beber", "meaning": "trinken" },
+  { "infinitive": "beber", "meaning": "trinken", "lesson": "1-15" },
   { "infinitive": "tomar", "meaning": "nehmen, trinken" },
-  { "infinitive": "comprar", "meaning": "kaufen" },
-  { "infinitive": "pagar", "meaning": "bezahlen" },
-  { "infinitive": "necesitar", "meaning": "brauchen" },
-  { "infinitive": "llegar", "meaning": "ankommen" },
-  { "infinitive": "buscar", "meaning": "suchen" },
+  { "infinitive": "comprar", "meaning": "kaufen", "lesson": "1-15" },
+  { "infinitive": "pagar", "meaning": "bezahlen", "lesson": "1-15" },
+  { "infinitive": "necesitar", "meaning": "brauchen", "lesson": "1-15" },
+  { "infinitive": "llegar", "meaning": "ankommen", "lesson": "1-15" },
+  { "infinitive": "buscar", "meaning": "suchen", "lesson": "1-15" },
   { "infinitive": "sacar", "meaning": "herausnehmen, holen" },
   { "infinitive": "explicar", "meaning": "erklären" },
   {
@@ -185,26 +198,26 @@
     "mexico": true
   },
   { "infinitive": "empezar", "meaning": "anfangen", "stemChange": "e>ie" },
-  { "infinitive": "pensar", "meaning": "denken", "stemChange": "e>ie" },
+  { "infinitive": "pensar", "meaning": "denken", "lesson": "1-15", "stemChange": "e>ie" },
   { "infinitive": "entender", "meaning": "verstehen", "stemChange": "e>ie" },
   { "infinitive": "cerrar", "meaning": "schließen", "stemChange": "e>ie" },
   { "infinitive": "perder", "meaning": "verlieren, verpassen", "stemChange": "e>ie" },
   { "infinitive": "preferir", "meaning": "vorziehen, lieber mögen", "stemChange": "e>ie" },
-  { "infinitive": "sentir", "meaning": "fühlen, bedauern", "stemChange": "e>ie" },
+  { "infinitive": "sentir", "meaning": "fühlen, bedauern", "lesson": "1-15", "stemChange": "e>ie" },
   {
     "infinitive": "volver",
     "meaning": "zurückkommen, zurückkehren",
     "stemChange": "o>ue",
     "participle": "vuelto"
   },
-  { "infinitive": "dormir", "meaning": "schlafen", "stemChange": "o>ue" },
+  { "infinitive": "dormir", "meaning": "schlafen", "lesson": "1-15", "stemChange": "o>ue" },
   { "infinitive": "morir", "meaning": "sterben", "stemChange": "o>ue", "participle": "muerto" },
   { "infinitive": "recordar", "meaning": "sich erinnern", "stemChange": "o>ue" },
-  { "infinitive": "encontrar", "meaning": "finden, treffen", "stemChange": "o>ue" },
+  { "infinitive": "encontrar", "meaning": "finden, treffen", "lesson": "1-15", "stemChange": "o>ue" },
   { "infinitive": "contar", "meaning": "erzählen, zählen", "stemChange": "o>ue" },
   { "infinitive": "almorzar", "meaning": "zu Mittag essen", "stemChange": "o>ue" },
   { "infinitive": "mover", "meaning": "bewegen", "stemChange": "o>ue" },
-  { "infinitive": "jugar", "meaning": "spielen", "stemChange": "u>ue" },
+  { "infinitive": "jugar", "meaning": "spielen", "lesson": "1-15", "stemChange": "u>ue" },
   { "infinitive": "pedir", "meaning": "bitten, bestellen", "stemChange": "e>i" },
   { "infinitive": "servir", "meaning": "dienen, servieren", "stemChange": "e>i" },
   { "infinitive": "repetir", "meaning": "wiederholen", "stemChange": "e>i" },
@@ -215,12 +228,12 @@
   { "infinitive": "romper", "meaning": "kaputt machen, zerbrechen", "participle": "roto" },
   { "infinitive": "andar", "meaning": "gehen, laufen", "preteriteStem": "anduv" },
   { "infinitive": "traducir", "meaning": "übersetzen", "preteriteStem": "traduj" },
-  { "infinitive": "escuchar", "meaning": "zuhören, hören" },
+  { "infinitive": "escuchar", "meaning": "zuhören, hören", "lesson": "1-15" },
   { "infinitive": "mirar", "meaning": "anschauen" },
   { "infinitive": "caminar", "meaning": "gehen, laufen, spazieren" },
   { "infinitive": "viajar", "meaning": "reisen" },
   { "infinitive": "cocinar", "meaning": "kochen" },
-  { "infinitive": "ayudar", "meaning": "helfen" },
+  { "infinitive": "ayudar", "meaning": "helfen", "lesson": "1-15" },
   { "infinitive": "usar", "meaning": "benutzen" },
   { "infinitive": "esperar", "meaning": "warten, hoffen" },
   { "infinitive": "dejar", "meaning": "lassen, verlassen" },
@@ -230,12 +243,162 @@
   {
     "infinitive": "gustar",
     "meaning": "gefallen",
+    "lesson": "1-15",
     "note": "Meist in der 3. Person: me gusta / me gustan."
   },
-  { "infinitive": "levantarse", "meaning": "aufstehen" },
+  { "infinitive": "levantarse", "meaning": "aufstehen", "lesson": "1-15" },
   { "infinitive": "llamarse", "meaning": "heißen" },
   { "infinitive": "acostarse", "meaning": "ins Bett gehen", "stemChange": "o>ue" },
   { "infinitive": "sentarse", "meaning": "sich setzen", "stemChange": "e>ie" },
   { "infinitive": "despertarse", "meaning": "aufwachen", "stemChange": "e>ie" },
-  { "infinitive": "vestirse", "meaning": "sich anziehen", "stemChange": "e>i" }
+  { "infinitive": "vestirse", "meaning": "sich anziehen", "stemChange": "e>i" },
+  {
+    "infinitive": "estacionar",
+    "meaning": "parken",
+    "lesson": "1-12"
+  },
+  {
+    "infinitive": "despertar",
+    "meaning": "aufwachen",
+    "lesson": "1-15",
+    "stemChange": "e>ie"
+  },
+  {
+    "infinitive": "vender",
+    "meaning": "verkaufen",
+    "lesson": "1-15"
+  },
+  {
+    "infinitive": "probarse",
+    "meaning": "anprobieren",
+    "lesson": "1-18",
+    "stemChange": "o>ue"
+  },
+  {
+    "infinitive": "optimizar",
+    "meaning": "optimieren",
+    "lesson": "2-12"
+  },
+  {
+    "infinitive": "automatizar",
+    "meaning": "automatisieren",
+    "lesson": "2-12"
+  },
+  {
+    "infinitive": "estandarizar",
+    "meaning": "standardisieren",
+    "lesson": "2-12"
+  },
+  {
+    "infinitive": "documentar",
+    "meaning": "dokumentieren",
+    "lesson": "2-12"
+  },
+  {
+    "infinitive": "modelar",
+    "meaning": "modellieren",
+    "lesson": "2-12"
+  },
+  {
+    "infinitive": "analizar",
+    "meaning": "analysieren",
+    "lesson": "2-12"
+  },
+  {
+    "infinitive": "ejecutar",
+    "meaning": "ausführen",
+    "lesson": "2-12"
+  },
+  {
+    "infinitive": "monitorear",
+    "meaning": "überwachen",
+    "lesson": "2-12"
+  },
+  {
+    "infinitive": "medir",
+    "meaning": "messen",
+    "lesson": "2-12",
+    "stemChange": "e>i"
+  },
+  {
+    "infinitive": "evaluar",
+    "meaning": "bewerten",
+    "lesson": "2-12",
+    "forms": {
+      "presente": { "yo": "evalúo", "tu": "evalúas", "el": "evalúa", "ellos": "evalúan" },
+      "subjuntivo": { "yo": "evalúe", "tu": "evalúes", "el": "evalúe", "ellos": "evalúen" }
+    },
+    "note": "Betonung auf dem u: evalúo, evalúas, … (nosotros: evaluamos)."
+  },
+  {
+    "infinitive": "implementar",
+    "meaning": "implementieren",
+    "lesson": "2-12"
+  },
+  {
+    "infinitive": "integrar",
+    "meaning": "integrieren",
+    "lesson": "2-12"
+  },
+  {
+    "infinitive": "rediseñar",
+    "meaning": "neu gestalten",
+    "lesson": "2-12"
+  },
+  {
+    "infinitive": "mapear",
+    "meaning": "abbilden / mappen",
+    "lesson": "2-12"
+  },
+  {
+    "infinitive": "alinear",
+    "meaning": "abstimmen / ausrichten",
+    "lesson": "2-12"
+  },
+  {
+    "infinitive": "gobernar",
+    "meaning": "steuern / regeln",
+    "lesson": "2-12",
+    "stemChange": "e>ie"
+  },
+  {
+    "infinitive": "auditar",
+    "meaning": "prüfen / auditieren",
+    "lesson": "2-12"
+  },
+  {
+    "infinitive": "validar",
+    "meaning": "validieren",
+    "lesson": "2-12"
+  },
+  {
+    "infinitive": "priorizar",
+    "meaning": "priorisieren",
+    "lesson": "2-12"
+  },
+  {
+    "infinitive": "delegar",
+    "meaning": "delegieren",
+    "lesson": "2-12"
+  },
+  {
+    "infinitive": "escalar",
+    "meaning": "eskalieren",
+    "lesson": "2-12"
+  },
+  {
+    "infinitive": "consolidar",
+    "meaning": "konsolidieren",
+    "lesson": "2-12"
+  },
+  {
+    "infinitive": "migrar",
+    "meaning": "migrieren",
+    "lesson": "2-12"
+  },
+  {
+    "infinitive": "modernizar",
+    "meaning": "modernisieren",
+    "lesson": "2-12"
+  }
 ]

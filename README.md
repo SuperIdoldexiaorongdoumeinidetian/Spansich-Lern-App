@@ -6,12 +6,15 @@ Spanisch: gleiche Lernlogik (Spaced Repetition, Quiz, Cloud-Sync), aber ohne
 Schriftzeichen-, Pinyin- und Radikal-Funktionen; dafür mit Grammatik-Bereich
 und Akzent-Prüfung.
 
-**Aktueller Stand:** `src/data/vocab.json` und `src/data/grammar.json`
-enthalten **Beispieldaten zum Testen** (52 Vokabeln in fünf Lektionen, fünf
-Grammatikthemen). Sie können jederzeit durch die echten Listen ersetzt werden
-– Lektionen, Decks und Grammatikthemen ergeben sich automatisch aus den
-Daten, im Code muss dafür nichts geändert werden. Mit leeren Listen läuft die
-App ebenfalls und zeigt an den passenden Stellen Hinweise.
+**Aktueller Stand:** `src/data/vocab.json` enthält 944 Vokabeln in 32
+Lektionen: Lektion 1 (1-1 bis 1-20) deckt den Alltag ab, Lektion 2 (2-1 bis
+2-12) Prozessmanagement und Enterprise Architecture Management. Die
+Lektionstitel stehen in `src/data/lessons.json`, die Verben für den
+Konjugationstrainer in `src/data/verbs.json` (112 Verben, mit Lektion).
+`src/data/grammar.json` enthält noch Beispieldaten (fünf Themen). Lektionen,
+Decks und Grammatikthemen ergeben sich automatisch aus den Daten, im Code
+muss dafür nichts geändert werden. Mit leeren Listen läuft die App ebenfalls
+und zeigt an den passenden Stellen Hinweise.
 
 ## Starten
 
@@ -83,6 +86,19 @@ Die Karten-ID ist `lesson|spanish|wordClass`. Diese drei Felder sollten sich
 bei bestehenden Einträgen nicht mehr ändern, sonst geht der Lernfortschritt
 dieser Karte verloren. Dieselbe Vokabel darf mit unterschiedlicher Wortart
 mehrfach vorkommen.
+
+## Lektionstitel eintragen (`src/data/lessons.json`)
+
+Ein JSON-Array mit Nummer und Titel je Lektion. Die Titel erscheinen in der
+Deck-Auswahl, im Dashboard und in den Lektionsfiltern neben der Nummer.
+Lektionen ohne Eintrag werden nur mit ihrer Nummer angezeigt.
+
+```json
+[
+  { "lesson": "1-1", "title": "Begrüßung & Höflichkeit" },
+  { "lesson": "2-1", "title": "Prozessmanagement – Grundbegriffe" }
+]
+```
 
 ## Grammatik eintragen (`src/data/grammar.json`)
 
@@ -160,8 +176,8 @@ Schreibregeln (buscar → busqué, conocer → conozco, seguir → sigo,
 construir → construyo, leer → leyó) berechnet die App automatisch. Ob ein
 Verb als „unregelmäßig" gilt, ergibt sich aus den berechneten Formen – in
 der Tabelle sind alle Abweichungen von der regelmäßigen Bildung markiert.
-Die mitgelieferte Liste enthält rund 80 häufige Verben und kann beliebig
-ergänzt werden.
+Die mitgelieferte Liste enthält 112 Verben (Alltag und Prozesskontext,
+jeweils mit Lektion) und kann beliebig ergänzt werden.
 
 ## Cloud-Sync (optional, Supabase)
 
@@ -198,7 +214,8 @@ lokalen Stand zusammengeführt (nie überschrieben).
 
 ```
 src/
-  data/vocab.json        ← Vokabelliste (Beispieldaten)
+  data/vocab.json        ← Vokabelliste (Alltag + Prozessmanagement/EAM)
+  data/lessons.json      ← Lektionstitel
   data/grammar.json      ← Grammatikthemen (Beispieldaten)
   data/verbs.json        ← Verbliste für den Konjugationstrainer
   lib/srs.js             ← Spaced-Repetition-Algorithmus (identisch zur Chinesisch-App)

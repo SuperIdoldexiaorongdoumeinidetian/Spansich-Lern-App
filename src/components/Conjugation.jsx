@@ -19,7 +19,7 @@ import {
   gerund,
   describeIrregularities,
 } from "../lib/conjugation";
-import { sample } from "../lib/deck";
+import { sample, lessonLabel } from "../lib/deck";
 import { checkSpanish, stripAccents } from "../lib/spanish";
 import { useSpeech } from "../lib/speech";
 import SpeakButton from "./SpeakButton";
@@ -201,7 +201,7 @@ function Trainer({ settings, updateSettings, speech }) {
                 <option value="alle">alle Lektionen</option>
                 {VERB_LESSONS.map((l) => (
                   <option key={l} value={l}>
-                    {l}
+                    {lessonLabel(l)}
                   </option>
                 ))}
               </select>

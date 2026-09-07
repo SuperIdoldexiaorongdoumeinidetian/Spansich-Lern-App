@@ -12,7 +12,7 @@
 //   "exercises": [{ "prompt": "Yo ___ estudiante. (ser)", "answer": "soy" }]
 // }
 import { useMemo, useState } from "react";
-import { grammarTopics } from "../lib/deck";
+import { grammarTopics, lessonLabel } from "../lib/deck";
 import { checkSpanish } from "../lib/spanish";
 import { useSpeech } from "../lib/speech";
 import SpeakButton from "./SpeakButton";
@@ -58,7 +58,7 @@ export default function Grammar() {
             <option value="alle">alle ({grammarTopics.length})</option>
             {lessons.map((l) => (
               <option key={l} value={l}>
-                {l} ({grammarTopics.filter((t) => t.lesson === l).length})
+                {lessonLabel(l)} ({grammarTopics.filter((t) => t.lesson === l).length})
               </option>
             ))}
           </select>
