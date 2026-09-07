@@ -10,9 +10,11 @@ Akzent-Prüfung.
 Der Nutzer ist kein erfahrener Entwickler — bei wichtigen Entscheidungen kurz das
 **Warum** erklären. UI und Inhalte sind auf **Deutsch**.
 
-**Stand:** `vocab.json` und `grammar.json` sind noch leer (Listen folgen).
-Die App muss mit leeren Listen sauber laufen (Hinweise statt Fehler) und
-darf beim Befüllen keine Code-Änderung brauchen.
+**Stand:** `vocab.json` enthält 944 Vokabeln in 32 Lektionen (Lektion 1-x =
+Alltag, Lektion 2-x = Prozessmanagement/EAM), `lessons.json` die Titel dazu.
+`grammar.json` ist noch leer (Liste folgt). Die App muss mit leeren Listen
+sauber laufen (Hinweise statt Fehler) und darf beim Befüllen keine
+Code-Änderung brauchen.
 
 ## Tech-Stack
 
@@ -29,7 +31,8 @@ darf beim Befüllen keine Code-Änderung brauchen.
 ```
 src/
   data/
-    vocab.json      ← Vokabeln (noch leer; Schema siehe unten)
+    vocab.json      ← 944 Vokabeln (Schema siehe unten)
+    lessons.json    ← Lektionstitel [{lesson, title}], bestimmt die Deck-Reihenfolge
     grammar.json    ← Grammatikthemen (noch leer; Schema siehe unten)
   lib/
     deck.js         ← Karten-/Deck-Aufbau aus den Daten, Session-Logik, Quiz-Optionen
@@ -58,7 +61,9 @@ Vokabel-Einträge (`vocab.json`), Pflicht: `spanish`, `meaning`, `lesson`:
 - `wordClass` — Substantiv, Verb, Adjektiv, Adverb, Redemittel, … (frei)
 - `gender` — "m"/"f" (optional, Substantive)
 - `lesson` — z. B. "1-1", "1-2"; `lessonGroups()` in `deck.js` gruppiert
-  `Zahl-Zahl` automatisch zu "Lektion N", andere Namen werden eigene Gruppen
+  `Zahl-Zahl` automatisch zu "Lektion N", andere Namen werden eigene Gruppen.
+  Titel kommen aus `lessons.json` (`lessonTitle()`/`lessonLabel()` in `deck.js`);
+  `LESSONS` enthält nur Lektionen mit Vokabeln, in der Reihenfolge von `lessons.json`
 - `isProperName` — Personennamen sind standardmäßig vom Lernen ausgeschlossen
 - `examRelevant` — `true` = prüfungsrelevant (Badge, Filter, Dashboard-Balken;
   UI-Elemente erscheinen nur, wenn `hasExamRelevant` in `deck.js` true ist)
@@ -70,8 +75,15 @@ Grammatik-Einträge (`grammar.json`), Pflicht: `id`, `title`; optional
 `examples` ([{es, de}]), `exercises` ([{prompt, answer, hint}]).
 
 Warum werden `LESSONS` aus den Daten abgeleitet statt fest im Code zu stehen
-(anders als in der Chinesisch-App)? Weil die Listen erst später kommen und
-der Nutzer sie ohne Code-Änderung einpflegen soll.
+(anders als in der Chinesisch-App)? Damit der Nutzer neue Lektionen ohne
+Code-Änderung einpflegen kann: Vokabeln anhängen, Titel in `lessons.json`
+ergänzen, fertig.
+
+Datenherkunft: Die Listen wurden vom Nutzer erstellt und als JSON geliefert;
+leere optionale Felder wurden beim Import weggelassen. Wortarten in den Daten:
+Substantiv, Verb, Adjektiv, Adverb, Phrase, Zahlwort, Fragewort, Pronomen,
+Präposition. "el agua"/"el área" mit `gender: "f"` sind korrekt (feminin,
+Artikel "el" vor betontem a).
 
 ## Kernkonzepte
 

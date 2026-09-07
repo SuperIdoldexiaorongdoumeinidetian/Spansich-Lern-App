@@ -6,10 +6,12 @@ Spanisch: gleiche Lernlogik (Spaced Repetition, Quiz, Cloud-Sync), aber ohne
 Schriftzeichen-, Pinyin- und Radikal-Funktionen; dafür mit Grammatik-Bereich
 und Akzent-Prüfung.
 
-**Aktueller Stand:** Vokabel- und Grammatikliste sind noch **leer**
-(`src/data/vocab.json` und `src/data/grammar.json`). Die App läuft trotzdem
-und zeigt an den passenden Stellen Hinweise. Sobald die Listen eingetragen
-sind, erscheinen Lektionen, Decks und Grammatikthemen automatisch – im Code
+**Aktueller Stand:** 944 Vokabeln in 32 Lektionen (`src/data/vocab.json`):
+Lektion 1 = Alltag (1-1 bis 1-20: Begrüßung, Zahlen, Farben, Familie, …),
+Lektion 2 = Prozessmanagement und Enterprise Architecture Management (2-1 bis
+2-12). Die Lektionstitel stehen in `src/data/lessons.json`. Die
+Grammatikliste (`src/data/grammar.json`) ist noch leer; der Grammatik-Tab
+zeigt bis dahin einen Hinweis. Neue Lektionen erscheinen automatisch, im Code
 muss dafür nichts geändert werden.
 
 ## Starten
@@ -76,6 +78,11 @@ Ein JSON-Array mit einem Objekt pro Vokabel. Pflichtfelder: `spanish`,
 | `example` / `exampleMeaning` | Beispielsatz (spanisch / deutsch), wird auf der Kartenrückseite gezeigt |
 | `note` | freier Hinweis (Gebrauch, Unterschied Mexiko/Spanien, …) |
 | `mexico` | `true` → Markierung „🇲🇽 mexikanisch" (typisch mexikanischer Ausdruck) |
+
+**Lektionstitel** (`src/data/lessons.json`): ein Array aus
+`{ "lesson": "1-1", "title": "Begrüßung & Höflichkeit" }`. Die Reihenfolge
+dort bestimmt die Reihenfolge der Decks; Lektionen ohne Eintrag werden
+trotzdem angezeigt (nur ohne Titel, hinten angehängt).
 
 Die Karten-ID ist `lesson|spanish|wordClass`. Diese drei Felder sollten sich
 bei bestehenden Einträgen nicht mehr ändern, sonst geht der Lernfortschritt
@@ -146,7 +153,8 @@ lokalen Stand zusammengeführt (nie überschrieben).
 
 ```
 src/
-  data/vocab.json        ← Vokabelliste (noch leer)
+  data/vocab.json        ← 944 Vokabeln (Alltag + Prozessmanagement/EAM)
+  data/lessons.json      ← Lektionstitel (32 Lektionen)
   data/grammar.json      ← Grammatikthemen (noch leer)
   lib/srs.js             ← Spaced-Repetition-Algorithmus (identisch zur Chinesisch-App)
   lib/store.js           ← localStorage-Persistenz, Streak, Tageslog, Merge

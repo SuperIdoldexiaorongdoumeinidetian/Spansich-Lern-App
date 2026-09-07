@@ -12,7 +12,7 @@
 // srs.js. Die Session endet, sobald keine Karte mehr übrig ist.
 import { useEffect, useMemo, useState } from "react";
 import DeckPicker from "./DeckPicker";
-import { buildPool, buildSession, srsKey, DIRECTIONS } from "../lib/deck";
+import { buildPool, buildSession, srsKey, DIRECTIONS, lessonTitle } from "../lib/deck";
 import { review, RATINGS, previewIntervals, todayStr } from "../lib/srs";
 import { bumpLog } from "../lib/store";
 import { useSpeech } from "../lib/speech";
@@ -297,7 +297,7 @@ export default function Flashcards({ state, setState }) {
         <span>
           Karte {Math.min(stats.learned + 1, total)} von {total}
         </span>
-        <span>
+        <span title={lessonTitle(card.lesson)}>
           {card.lesson} · {DIRECTIONS[dir].label}
         </span>
       </div>

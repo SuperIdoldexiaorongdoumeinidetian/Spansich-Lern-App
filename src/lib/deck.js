@@ -7,6 +7,7 @@
 // nichts im Code angepasst werden: einfach an vocab.json anhängen, fertig.
 import vocab from "../data/vocab.json";
 import grammar from "../data/grammar.json";
+import lessons from "../data/lessons.json";
 
 // Abfragerichtungen: sm = Spanisch → Bedeutung, ms = Bedeutung → Spanisch.
 export const DIRECTIONS = {
@@ -24,9 +25,22 @@ export const vocabCards = vocab.map((e) => ({
   type: "vocab",
 }));
 
-// Alle Lektionen in Reihenfolge des ersten Vorkommens in den Daten
-// (für Auswahl-Listen und Statistik).
-export const LESSONS = [...new Set(vocabCards.map((c) => c.lesson))];
+// Lektionstitel aus lessons.json ("1-1" → "Begrüßung & Höflichkeit").
+// Fehlt ein Titel, wird nur die Lektionsnummer angezeigt.
+const LESSON_TITLES = Object.fromEntries(lessons.map((l) => [l.lesson, l.title]));
+export const lessonTitle = (lesson) => LESSON_TITLES[lesson] ?? "";
+// Nummer + Titel für Anzeigen ("1-1 · Begrüßung & Höflichkeit").
+export const lessonLabel = (lesson) =>
+  lessonTitle(lesson) ? `${lesson} · ${lessonTitle(lesson)}` : lesson;
+
+// Alle Lektionen, die tatsächlich Vokabeln enthalten (für Auswahl-Listen und
+// Statistik). Reihenfolge: wie in lessons.json; Lektionen, die dort nicht
+// stehen, folgen in Reihenfolge ihres ersten Vorkommens in den Daten.
+const usedLessons = [...new Set(vocabCards.map((c) => c.lesson))];
+export const LESSONS = [
+  ...lessons.map((l) => l.lesson).filter((x) => usedLessons.includes(x)),
+  ...usedLessons.filter((x) => !(x in LESSON_TITLES)),
+];
 
 // Alle Grammatikthemen (Nachschlage-Liste + Übungen im Grammatik-Tab).
 export const grammarTopics = grammar;

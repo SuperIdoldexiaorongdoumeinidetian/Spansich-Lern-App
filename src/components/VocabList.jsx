@@ -2,7 +2,7 @@
 // Lektion, Aussprache und Lernstatus (✓ = mindestens einmal bewertet).
 // Gegenstück zur Nachschlage-Liste im Radikal-Trainer der Chinesisch-App.
 import { useMemo, useState } from "react";
-import { LESSONS, DIRECTIONS, vocabCards, srsKey } from "../lib/deck";
+import { LESSONS, DIRECTIONS, vocabCards, srsKey, lessonLabel } from "../lib/deck";
 import { stripAccents } from "../lib/spanish";
 import { useSpeech } from "../lib/speech";
 import SpeakButton from "./SpeakButton";
@@ -64,7 +64,7 @@ export default function VocabList({ state }) {
           <option value="alle">alle Lektionen</option>
           {LESSONS.map((l) => (
             <option key={l} value={l}>
-              {l}
+              {lessonLabel(l)}
             </option>
           ))}
         </select>

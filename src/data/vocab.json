@@ -1,1 +1,6483 @@
-[]
+[
+  {
+    "spanish": "hola",
+    "meaning": "Hallo",
+    "wordClass": "Phrase",
+    "lesson": "1-1"
+  },
+  {
+    "spanish": "buenos días",
+    "meaning": "Guten Morgen",
+    "wordClass": "Phrase",
+    "lesson": "1-1"
+  },
+  {
+    "spanish": "buenas tardes",
+    "meaning": "Guten Tag",
+    "wordClass": "Phrase",
+    "lesson": "1-1"
+  },
+  {
+    "spanish": "buenas noches",
+    "meaning": "Guten Abend / Gute Nacht",
+    "wordClass": "Phrase",
+    "lesson": "1-1"
+  },
+  {
+    "spanish": "adiós",
+    "meaning": "Auf Wiedersehen",
+    "wordClass": "Phrase",
+    "lesson": "1-1"
+  },
+  {
+    "spanish": "hasta luego",
+    "meaning": "Bis später",
+    "wordClass": "Phrase",
+    "lesson": "1-1"
+  },
+  {
+    "spanish": "hasta mañana",
+    "meaning": "Bis morgen",
+    "wordClass": "Phrase",
+    "lesson": "1-1"
+  },
+  {
+    "spanish": "por favor",
+    "meaning": "Bitte",
+    "wordClass": "Phrase",
+    "lesson": "1-1"
+  },
+  {
+    "spanish": "gracias",
+    "meaning": "Danke",
+    "wordClass": "Phrase",
+    "lesson": "1-1"
+  },
+  {
+    "spanish": "de nada",
+    "meaning": "Gern geschehen",
+    "wordClass": "Phrase",
+    "lesson": "1-1"
+  },
+  {
+    "spanish": "perdón",
+    "meaning": "Entschuldigung",
+    "wordClass": "Phrase",
+    "lesson": "1-1"
+  },
+  {
+    "spanish": "disculpe",
+    "meaning": "Entschuldigen Sie",
+    "wordClass": "Phrase",
+    "lesson": "1-1"
+  },
+  {
+    "spanish": "lo siento",
+    "meaning": "Es tut mir leid",
+    "wordClass": "Phrase",
+    "lesson": "1-1"
+  },
+  {
+    "spanish": "cómo estás",
+    "meaning": "Wie geht es dir?",
+    "wordClass": "Phrase",
+    "lesson": "1-1"
+  },
+  {
+    "spanish": "muy bien",
+    "meaning": "sehr gut",
+    "wordClass": "Phrase",
+    "lesson": "1-1"
+  },
+  {
+    "spanish": "cómo te llamas",
+    "meaning": "Wie heißt du?",
+    "wordClass": "Phrase",
+    "lesson": "1-1"
+  },
+  {
+    "spanish": "mucho gusto",
+    "meaning": "Freut mich",
+    "wordClass": "Phrase",
+    "lesson": "1-1",
+    "note": "bei der Vorstellung"
+  },
+  {
+    "spanish": "igualmente",
+    "meaning": "Gleichfalls",
+    "wordClass": "Adverb",
+    "lesson": "1-1"
+  },
+  {
+    "spanish": "bienvenido",
+    "meaning": "Willkommen",
+    "wordClass": "Phrase",
+    "lesson": "1-1"
+  },
+  {
+    "spanish": "sí",
+    "meaning": "Ja",
+    "wordClass": "Adverb",
+    "lesson": "1-1"
+  },
+  {
+    "spanish": "no",
+    "meaning": "Nein",
+    "wordClass": "Adverb",
+    "lesson": "1-1"
+  },
+  {
+    "spanish": "está bien",
+    "meaning": "ist gut / okay",
+    "wordClass": "Adverb",
+    "lesson": "1-1"
+  },
+  {
+    "spanish": "cero",
+    "meaning": "null",
+    "wordClass": "Zahlwort",
+    "lesson": "1-2"
+  },
+  {
+    "spanish": "uno",
+    "meaning": "eins",
+    "wordClass": "Zahlwort",
+    "lesson": "1-2"
+  },
+  {
+    "spanish": "dos",
+    "meaning": "zwei",
+    "wordClass": "Zahlwort",
+    "lesson": "1-2"
+  },
+  {
+    "spanish": "tres",
+    "meaning": "drei",
+    "wordClass": "Zahlwort",
+    "lesson": "1-2"
+  },
+  {
+    "spanish": "cuatro",
+    "meaning": "vier",
+    "wordClass": "Zahlwort",
+    "lesson": "1-2"
+  },
+  {
+    "spanish": "cinco",
+    "meaning": "fünf",
+    "wordClass": "Zahlwort",
+    "lesson": "1-2"
+  },
+  {
+    "spanish": "seis",
+    "meaning": "sechs",
+    "wordClass": "Zahlwort",
+    "lesson": "1-2"
+  },
+  {
+    "spanish": "siete",
+    "meaning": "sieben",
+    "wordClass": "Zahlwort",
+    "lesson": "1-2"
+  },
+  {
+    "spanish": "ocho",
+    "meaning": "acht",
+    "wordClass": "Zahlwort",
+    "lesson": "1-2"
+  },
+  {
+    "spanish": "nueve",
+    "meaning": "neun",
+    "wordClass": "Zahlwort",
+    "lesson": "1-2"
+  },
+  {
+    "spanish": "diez",
+    "meaning": "zehn",
+    "wordClass": "Zahlwort",
+    "lesson": "1-2"
+  },
+  {
+    "spanish": "once",
+    "meaning": "elf",
+    "wordClass": "Zahlwort",
+    "lesson": "1-2"
+  },
+  {
+    "spanish": "doce",
+    "meaning": "zwölf",
+    "wordClass": "Zahlwort",
+    "lesson": "1-2"
+  },
+  {
+    "spanish": "trece",
+    "meaning": "dreizehn",
+    "wordClass": "Zahlwort",
+    "lesson": "1-2"
+  },
+  {
+    "spanish": "catorce",
+    "meaning": "vierzehn",
+    "wordClass": "Zahlwort",
+    "lesson": "1-2"
+  },
+  {
+    "spanish": "quince",
+    "meaning": "fünfzehn",
+    "wordClass": "Zahlwort",
+    "lesson": "1-2"
+  },
+  {
+    "spanish": "dieciséis",
+    "meaning": "sechzehn",
+    "wordClass": "Zahlwort",
+    "lesson": "1-2"
+  },
+  {
+    "spanish": "diecisiete",
+    "meaning": "siebzehn",
+    "wordClass": "Zahlwort",
+    "lesson": "1-2"
+  },
+  {
+    "spanish": "dieciocho",
+    "meaning": "achtzehn",
+    "wordClass": "Zahlwort",
+    "lesson": "1-2"
+  },
+  {
+    "spanish": "diecinueve",
+    "meaning": "neunzehn",
+    "wordClass": "Zahlwort",
+    "lesson": "1-2"
+  },
+  {
+    "spanish": "veinte",
+    "meaning": "zwanzig",
+    "wordClass": "Zahlwort",
+    "lesson": "1-2"
+  },
+  {
+    "spanish": "treinta",
+    "meaning": "dreißig",
+    "wordClass": "Zahlwort",
+    "lesson": "1-2"
+  },
+  {
+    "spanish": "cuarenta",
+    "meaning": "vierzig",
+    "wordClass": "Zahlwort",
+    "lesson": "1-2"
+  },
+  {
+    "spanish": "cincuenta",
+    "meaning": "fünfzig",
+    "wordClass": "Zahlwort",
+    "lesson": "1-2"
+  },
+  {
+    "spanish": "sesenta",
+    "meaning": "sechzig",
+    "wordClass": "Zahlwort",
+    "lesson": "1-2"
+  },
+  {
+    "spanish": "setenta",
+    "meaning": "siebzig",
+    "wordClass": "Zahlwort",
+    "lesson": "1-2"
+  },
+  {
+    "spanish": "ochenta",
+    "meaning": "achtzig",
+    "wordClass": "Zahlwort",
+    "lesson": "1-2"
+  },
+  {
+    "spanish": "noventa",
+    "meaning": "neunzig",
+    "wordClass": "Zahlwort",
+    "lesson": "1-2"
+  },
+  {
+    "spanish": "cien",
+    "meaning": "hundert",
+    "wordClass": "Zahlwort",
+    "lesson": "1-2"
+  },
+  {
+    "spanish": "mil",
+    "meaning": "tausend",
+    "wordClass": "Zahlwort",
+    "lesson": "1-2"
+  },
+  {
+    "spanish": "rojo",
+    "meaning": "rot",
+    "wordClass": "Adjektiv",
+    "lesson": "1-3"
+  },
+  {
+    "spanish": "azul",
+    "meaning": "blau",
+    "wordClass": "Adjektiv",
+    "lesson": "1-3"
+  },
+  {
+    "spanish": "verde",
+    "meaning": "grün",
+    "wordClass": "Adjektiv",
+    "lesson": "1-3"
+  },
+  {
+    "spanish": "amarillo",
+    "meaning": "gelb",
+    "wordClass": "Adjektiv",
+    "lesson": "1-3"
+  },
+  {
+    "spanish": "negro",
+    "meaning": "schwarz",
+    "wordClass": "Adjektiv",
+    "lesson": "1-3"
+  },
+  {
+    "spanish": "blanco",
+    "meaning": "weiß",
+    "wordClass": "Adjektiv",
+    "lesson": "1-3"
+  },
+  {
+    "spanish": "gris",
+    "meaning": "grau",
+    "wordClass": "Adjektiv",
+    "lesson": "1-3"
+  },
+  {
+    "spanish": "marrón",
+    "meaning": "braun",
+    "wordClass": "Adjektiv",
+    "lesson": "1-3",
+    "note": "in Mexiko oft: café",
+    "mexico": true
+  },
+  {
+    "spanish": "rosa",
+    "meaning": "rosa",
+    "wordClass": "Adjektiv",
+    "lesson": "1-3"
+  },
+  {
+    "spanish": "morado",
+    "meaning": "lila",
+    "wordClass": "Adjektiv",
+    "lesson": "1-3"
+  },
+  {
+    "spanish": "anaranjado",
+    "meaning": "orange",
+    "wordClass": "Adjektiv",
+    "lesson": "1-3"
+  },
+  {
+    "spanish": "dorado",
+    "meaning": "golden",
+    "wordClass": "Adjektiv",
+    "lesson": "1-3"
+  },
+  {
+    "spanish": "plateado",
+    "meaning": "silbern",
+    "wordClass": "Adjektiv",
+    "lesson": "1-3"
+  },
+  {
+    "spanish": "claro",
+    "meaning": "hell",
+    "wordClass": "Adjektiv",
+    "lesson": "1-3"
+  },
+  {
+    "spanish": "oscuro",
+    "meaning": "dunkel",
+    "wordClass": "Adjektiv",
+    "lesson": "1-3"
+  },
+  {
+    "spanish": "la familia",
+    "meaning": "die Familie",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-4"
+  },
+  {
+    "spanish": "la madre",
+    "meaning": "die Mutter",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-4"
+  },
+  {
+    "spanish": "el padre",
+    "meaning": "der Vater",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-4"
+  },
+  {
+    "spanish": "la mamá",
+    "meaning": "die Mama",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-4"
+  },
+  {
+    "spanish": "el papá",
+    "meaning": "der Papa",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-4"
+  },
+  {
+    "spanish": "el hijo",
+    "meaning": "der Sohn",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-4"
+  },
+  {
+    "spanish": "la hija",
+    "meaning": "die Tochter",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-4"
+  },
+  {
+    "spanish": "el hermano",
+    "meaning": "der Bruder",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-4"
+  },
+  {
+    "spanish": "la hermana",
+    "meaning": "die Schwester",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-4"
+  },
+  {
+    "spanish": "el abuelo",
+    "meaning": "der Großvater",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-4"
+  },
+  {
+    "spanish": "la abuela",
+    "meaning": "die Großmutter",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-4"
+  },
+  {
+    "spanish": "el nieto",
+    "meaning": "der Enkel",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-4"
+  },
+  {
+    "spanish": "la nieta",
+    "meaning": "die Enkelin",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-4"
+  },
+  {
+    "spanish": "el tío",
+    "meaning": "der Onkel",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-4"
+  },
+  {
+    "spanish": "la tía",
+    "meaning": "die Tante",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-4"
+  },
+  {
+    "spanish": "el primo",
+    "meaning": "der Cousin",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-4"
+  },
+  {
+    "spanish": "la prima",
+    "meaning": "die Cousine",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-4"
+  },
+  {
+    "spanish": "el sobrino",
+    "meaning": "der Neffe",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-4"
+  },
+  {
+    "spanish": "la sobrina",
+    "meaning": "die Nichte",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-4"
+  },
+  {
+    "spanish": "el esposo",
+    "meaning": "der Ehemann",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-4"
+  },
+  {
+    "spanish": "la esposa",
+    "meaning": "die Ehefrau",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-4"
+  },
+  {
+    "spanish": "el novio",
+    "meaning": "der Freund",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-4",
+    "note": "Partner"
+  },
+  {
+    "spanish": "la novia",
+    "meaning": "die Freundin",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-4",
+    "note": "Partnerin"
+  },
+  {
+    "spanish": "el suegro",
+    "meaning": "der Schwiegervater",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-4"
+  },
+  {
+    "spanish": "la suegra",
+    "meaning": "die Schwiegermutter",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-4"
+  },
+  {
+    "spanish": "la cabeza",
+    "meaning": "der Kopf",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-5"
+  },
+  {
+    "spanish": "la cara",
+    "meaning": "das Gesicht",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-5"
+  },
+  {
+    "spanish": "el ojo",
+    "meaning": "das Auge",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-5"
+  },
+  {
+    "spanish": "la oreja",
+    "meaning": "das Ohr",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-5"
+  },
+  {
+    "spanish": "la nariz",
+    "meaning": "die Nase",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-5"
+  },
+  {
+    "spanish": "la boca",
+    "meaning": "der Mund",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-5"
+  },
+  {
+    "spanish": "el diente",
+    "meaning": "der Zahn",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-5"
+  },
+  {
+    "spanish": "la lengua",
+    "meaning": "die Zunge",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-5"
+  },
+  {
+    "spanish": "el cuello",
+    "meaning": "der Hals",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-5"
+  },
+  {
+    "spanish": "el hombro",
+    "meaning": "die Schulter",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-5"
+  },
+  {
+    "spanish": "el brazo",
+    "meaning": "der Arm",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-5"
+  },
+  {
+    "spanish": "la mano",
+    "meaning": "die Hand",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-5"
+  },
+  {
+    "spanish": "el dedo",
+    "meaning": "der Finger",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-5"
+  },
+  {
+    "spanish": "la pierna",
+    "meaning": "das Bein",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-5"
+  },
+  {
+    "spanish": "la rodilla",
+    "meaning": "das Knie",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-5"
+  },
+  {
+    "spanish": "el pie",
+    "meaning": "der Fuß",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-5"
+  },
+  {
+    "spanish": "la espalda",
+    "meaning": "der Rücken",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-5"
+  },
+  {
+    "spanish": "el pecho",
+    "meaning": "die Brust",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-5"
+  },
+  {
+    "spanish": "el estómago",
+    "meaning": "der Bauch / der Magen",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-5"
+  },
+  {
+    "spanish": "el corazón",
+    "meaning": "das Herz",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-5"
+  },
+  {
+    "spanish": "la piel",
+    "meaning": "die Haut",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-5"
+  },
+  {
+    "spanish": "el cabello",
+    "meaning": "das Haar",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-5"
+  },
+  {
+    "spanish": "el codo",
+    "meaning": "der Ellbogen",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-5"
+  },
+  {
+    "spanish": "el tobillo",
+    "meaning": "der Knöchel",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-5"
+  },
+  {
+    "spanish": "el lunes",
+    "meaning": "der Montag",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "el martes",
+    "meaning": "der Dienstag",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "el miércoles",
+    "meaning": "der Mittwoch",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "el jueves",
+    "meaning": "der Donnerstag",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "el viernes",
+    "meaning": "der Freitag",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "el sábado",
+    "meaning": "der Samstag",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "el domingo",
+    "meaning": "der Sonntag",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "enero",
+    "meaning": "Januar",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "febrero",
+    "meaning": "Februar",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "marzo",
+    "meaning": "März",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "abril",
+    "meaning": "April",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "mayo",
+    "meaning": "Mai",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "junio",
+    "meaning": "Juni",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "julio",
+    "meaning": "Juli",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "agosto",
+    "meaning": "August",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "septiembre",
+    "meaning": "September",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "octubre",
+    "meaning": "Oktober",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "noviembre",
+    "meaning": "November",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "diciembre",
+    "meaning": "Dezember",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "el día",
+    "meaning": "der Tag",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "la semana",
+    "meaning": "die Woche",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "el mes",
+    "meaning": "der Monat",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "el año",
+    "meaning": "das Jahr",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "la hora",
+    "meaning": "die Stunde",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "el minuto",
+    "meaning": "die Minute",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "el segundo",
+    "meaning": "die Sekunde",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "la mañana",
+    "meaning": "der Morgen",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-6",
+    "note": "auch Adverb: morgen"
+  },
+  {
+    "spanish": "la tarde",
+    "meaning": "der Nachmittag",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-6",
+    "note": "auch Adjektiv/Adverb: spät"
+  },
+  {
+    "spanish": "la noche",
+    "meaning": "die Nacht / der Abend",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "hoy",
+    "meaning": "heute",
+    "wordClass": "Adverb",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "ayer",
+    "meaning": "gestern",
+    "wordClass": "Adverb",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "ahora",
+    "meaning": "jetzt",
+    "wordClass": "Adverb",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "después",
+    "meaning": "danach",
+    "wordClass": "Adverb",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "antes",
+    "meaning": "vorher",
+    "wordClass": "Adverb",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "temprano",
+    "meaning": "früh",
+    "wordClass": "Adverb",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "siempre",
+    "meaning": "immer",
+    "wordClass": "Adverb",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "nunca",
+    "meaning": "nie",
+    "wordClass": "Adverb",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "a veces",
+    "meaning": "manchmal",
+    "wordClass": "Adverb",
+    "lesson": "1-6"
+  },
+  {
+    "spanish": "el clima",
+    "meaning": "das Klima",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-7"
+  },
+  {
+    "spanish": "el tiempo",
+    "meaning": "das Wetter",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-7",
+    "note": "auch: Zeit"
+  },
+  {
+    "spanish": "el sol",
+    "meaning": "die Sonne",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-7"
+  },
+  {
+    "spanish": "la lluvia",
+    "meaning": "der Regen",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-7"
+  },
+  {
+    "spanish": "la nieve",
+    "meaning": "der Schnee",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-7"
+  },
+  {
+    "spanish": "el viento",
+    "meaning": "der Wind",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-7"
+  },
+  {
+    "spanish": "la nube",
+    "meaning": "die Wolke",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-7"
+  },
+  {
+    "spanish": "la tormenta",
+    "meaning": "der Sturm / das Gewitter",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-7"
+  },
+  {
+    "spanish": "el calor",
+    "meaning": "die Hitze",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-7"
+  },
+  {
+    "spanish": "fresco",
+    "meaning": "kühl",
+    "wordClass": "Adjektiv",
+    "lesson": "1-7"
+  },
+  {
+    "spanish": "húmedo",
+    "meaning": "feucht",
+    "wordClass": "Adjektiv",
+    "lesson": "1-7"
+  },
+  {
+    "spanish": "seco",
+    "meaning": "trocken",
+    "wordClass": "Adjektiv",
+    "lesson": "1-7"
+  },
+  {
+    "spanish": "templado",
+    "meaning": "mild",
+    "wordClass": "Adjektiv",
+    "lesson": "1-7"
+  },
+  {
+    "spanish": "soleado",
+    "meaning": "sonnig",
+    "wordClass": "Adjektiv",
+    "lesson": "1-7"
+  },
+  {
+    "spanish": "nublado",
+    "meaning": "bewölkt",
+    "wordClass": "Adjektiv",
+    "lesson": "1-7"
+  },
+  {
+    "spanish": "lluvioso",
+    "meaning": "regnerisch",
+    "wordClass": "Adjektiv",
+    "lesson": "1-7"
+  },
+  {
+    "spanish": "la temperatura",
+    "meaning": "die Temperatur",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-7"
+  },
+  {
+    "spanish": "la niebla",
+    "meaning": "der Nebel",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-7"
+  },
+  {
+    "spanish": "la comida",
+    "meaning": "das Essen",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "el desayuno",
+    "meaning": "das Frühstück",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "el almuerzo",
+    "meaning": "das Mittagessen",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "la cena",
+    "meaning": "das Abendessen",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "el agua",
+    "meaning": "das Wasser",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "la leche",
+    "meaning": "die Milch",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "el café",
+    "meaning": "der Kaffee",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "el té",
+    "meaning": "der Tee",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "el jugo",
+    "meaning": "der Saft",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "el refresco",
+    "meaning": "das Erfrischungsgetränk",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-8",
+    "note": "MX-Wort für Limonade",
+    "mexico": true
+  },
+  {
+    "spanish": "la cerveza",
+    "meaning": "das Bier",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "el vino",
+    "meaning": "der Wein",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "el pan",
+    "meaning": "das Brot",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "la tortilla",
+    "meaning": "die Tortilla",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-8",
+    "note": "MX: dünner Maisfladen",
+    "mexico": true
+  },
+  {
+    "spanish": "el arroz",
+    "meaning": "der Reis",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "los frijoles",
+    "meaning": "die Bohnen",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-8",
+    "note": "MX-Wort, Spanien: alubias/judías",
+    "mexico": true
+  },
+  {
+    "spanish": "la carne",
+    "meaning": "das Fleisch",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "el pollo",
+    "meaning": "das Hühnchen",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "la res",
+    "meaning": "das Rindfleisch",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-8",
+    "note": "MX-Wort",
+    "mexico": true
+  },
+  {
+    "spanish": "la carne de cerdo",
+    "meaning": "das Schweinefleisch",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "el pescado",
+    "meaning": "der Fisch",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-8",
+    "note": "als Speise"
+  },
+  {
+    "spanish": "el huevo",
+    "meaning": "das Ei",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "el queso",
+    "meaning": "der Käse",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "la mantequilla",
+    "meaning": "die Butter",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "el azúcar",
+    "meaning": "der Zucker",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "la sal",
+    "meaning": "das Salz",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "la pimienta",
+    "meaning": "der Pfeffer",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "el aceite",
+    "meaning": "das Öl",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "la verdura",
+    "meaning": "das Gemüse",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "la fruta",
+    "meaning": "das Obst",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "la manzana",
+    "meaning": "der Apfel",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "el plátano",
+    "meaning": "die Banane",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "la naranja",
+    "meaning": "die Orange",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-8",
+    "note": "Frucht"
+  },
+  {
+    "spanish": "el limón",
+    "meaning": "die Limette / die Zitrone",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "la fresa",
+    "meaning": "die Erdbeere",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "el aguacate",
+    "meaning": "die Avocado",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "el elote",
+    "meaning": "der Maiskolben",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-8",
+    "note": "MX-Wort",
+    "mexico": true
+  },
+  {
+    "spanish": "la papa",
+    "meaning": "die Kartoffel",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-8",
+    "note": "MX-Wort, Spanien: patata",
+    "mexico": true
+  },
+  {
+    "spanish": "la cebolla",
+    "meaning": "die Zwiebel",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "el ajo",
+    "meaning": "der Knoblauch",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "el tomate",
+    "meaning": "die Tomate",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "el chile",
+    "meaning": "der Chili",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-8",
+    "note": "MX-Wort",
+    "mexico": true
+  },
+  {
+    "spanish": "el taco",
+    "meaning": "der Taco",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "la salsa",
+    "meaning": "die Salsa / die Soße",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "el guacamole",
+    "meaning": "die Guacamole",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "el vaso",
+    "meaning": "das Glas",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "el plato",
+    "meaning": "der Teller",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "la cuenta",
+    "meaning": "die Rechnung",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-8"
+  },
+  {
+    "spanish": "la casa",
+    "meaning": "das Haus",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-9"
+  },
+  {
+    "spanish": "el departamento",
+    "meaning": "die Wohnung",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-9",
+    "note": "MX-Wort, Spanien: piso/apartamento",
+    "mexico": true
+  },
+  {
+    "spanish": "el cuarto",
+    "meaning": "das Zimmer",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-9"
+  },
+  {
+    "spanish": "la sala",
+    "meaning": "das Wohnzimmer",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-9"
+  },
+  {
+    "spanish": "la cocina",
+    "meaning": "die Küche",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-9"
+  },
+  {
+    "spanish": "el baño",
+    "meaning": "das Badezimmer",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-9"
+  },
+  {
+    "spanish": "el comedor",
+    "meaning": "das Esszimmer",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-9"
+  },
+  {
+    "spanish": "el jardín",
+    "meaning": "der Garten",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-9"
+  },
+  {
+    "spanish": "el patio",
+    "meaning": "der Hof",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-9"
+  },
+  {
+    "spanish": "el garaje",
+    "meaning": "die Garage",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-9"
+  },
+  {
+    "spanish": "la puerta",
+    "meaning": "die Tür",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-9"
+  },
+  {
+    "spanish": "la ventana",
+    "meaning": "das Fenster",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-9"
+  },
+  {
+    "spanish": "la pared",
+    "meaning": "die Wand",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-9"
+  },
+  {
+    "spanish": "el techo",
+    "meaning": "das Dach / die Decke",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-9"
+  },
+  {
+    "spanish": "el piso",
+    "meaning": "der Boden / das Stockwerk",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-9"
+  },
+  {
+    "spanish": "la escalera",
+    "meaning": "die Treppe",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-9"
+  },
+  {
+    "spanish": "la llave",
+    "meaning": "der Schlüssel",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-9"
+  },
+  {
+    "spanish": "el mueble",
+    "meaning": "das Möbelstück",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-9"
+  },
+  {
+    "spanish": "la mesa",
+    "meaning": "der Tisch",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-9"
+  },
+  {
+    "spanish": "la silla",
+    "meaning": "der Stuhl",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-9"
+  },
+  {
+    "spanish": "el sofá",
+    "meaning": "das Sofa",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-9"
+  },
+  {
+    "spanish": "la cama",
+    "meaning": "das Bett",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-9"
+  },
+  {
+    "spanish": "el clóset",
+    "meaning": "der Kleiderschrank",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-9",
+    "note": "Anglizismus, Spanien: armario"
+  },
+  {
+    "spanish": "el espejo",
+    "meaning": "der Spiegel",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-9"
+  },
+  {
+    "spanish": "la lámpara",
+    "meaning": "die Lampe",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-9"
+  },
+  {
+    "spanish": "la alfombra",
+    "meaning": "der Teppich",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-9"
+  },
+  {
+    "spanish": "la cortina",
+    "meaning": "der Vorhang",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-9"
+  },
+  {
+    "spanish": "el refrigerador",
+    "meaning": "der Kühlschrank",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-9"
+  },
+  {
+    "spanish": "la estufa",
+    "meaning": "der Herd",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-9"
+  },
+  {
+    "spanish": "el horno",
+    "meaning": "der Ofen",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-9"
+  },
+  {
+    "spanish": "la lavadora",
+    "meaning": "die Waschmaschine",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-9"
+  },
+  {
+    "spanish": "la basura",
+    "meaning": "der Müll",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-9"
+  },
+  {
+    "spanish": "la escoba",
+    "meaning": "der Besen",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-9"
+  },
+  {
+    "spanish": "la cerradura",
+    "meaning": "das Schloss",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-9"
+  },
+  {
+    "spanish": "la ropa",
+    "meaning": "die Kleidung",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-10"
+  },
+  {
+    "spanish": "la camisa",
+    "meaning": "das Hemd",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-10"
+  },
+  {
+    "spanish": "la camiseta",
+    "meaning": "das T-Shirt",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-10"
+  },
+  {
+    "spanish": "el pantalón",
+    "meaning": "die Hose",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-10"
+  },
+  {
+    "spanish": "la falda",
+    "meaning": "der Rock",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-10"
+  },
+  {
+    "spanish": "el vestido",
+    "meaning": "das Kleid",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-10"
+  },
+  {
+    "spanish": "la chaqueta",
+    "meaning": "die Jacke",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-10"
+  },
+  {
+    "spanish": "el suéter",
+    "meaning": "der Pullover",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-10"
+  },
+  {
+    "spanish": "el abrigo",
+    "meaning": "der Mantel",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-10"
+  },
+  {
+    "spanish": "el zapato",
+    "meaning": "der Schuh",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-10"
+  },
+  {
+    "spanish": "el tenis",
+    "meaning": "die Turnschuhe",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-10",
+    "note": "MX-Wort, Spanien: zapatillas de deporte",
+    "mexico": true
+  },
+  {
+    "spanish": "la bota",
+    "meaning": "der Stiefel",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-10"
+  },
+  {
+    "spanish": "la sandalia",
+    "meaning": "die Sandale",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-10"
+  },
+  {
+    "spanish": "el calcetín",
+    "meaning": "die Socke",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-10"
+  },
+  {
+    "spanish": "el sombrero",
+    "meaning": "der Hut",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-10"
+  },
+  {
+    "spanish": "la gorra",
+    "meaning": "die Kappe / die Mütze",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-10"
+  },
+  {
+    "spanish": "el cinturón",
+    "meaning": "der Gürtel",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-10"
+  },
+  {
+    "spanish": "la bufanda",
+    "meaning": "der Schal",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-10"
+  },
+  {
+    "spanish": "el guante",
+    "meaning": "der Handschuh",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-10"
+  },
+  {
+    "spanish": "el traje",
+    "meaning": "der Anzug",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-10"
+  },
+  {
+    "spanish": "los lentes",
+    "meaning": "die Brille",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-10",
+    "note": "MX-Wort, Spanien: gafas",
+    "mexico": true
+  },
+  {
+    "spanish": "la bolsa",
+    "meaning": "die Tasche",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-10",
+    "note": "MX-Wort, Spanien: bolso",
+    "mexico": true
+  },
+  {
+    "spanish": "la ciudad",
+    "meaning": "die Stadt",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-11"
+  },
+  {
+    "spanish": "el pueblo",
+    "meaning": "das Dorf",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-11"
+  },
+  {
+    "spanish": "la calle",
+    "meaning": "die Straße",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-11"
+  },
+  {
+    "spanish": "la avenida",
+    "meaning": "die Allee",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-11"
+  },
+  {
+    "spanish": "la plaza",
+    "meaning": "der Platz",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-11"
+  },
+  {
+    "spanish": "el parque",
+    "meaning": "der Park",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-11"
+  },
+  {
+    "spanish": "el mercado",
+    "meaning": "der Markt",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-11"
+  },
+  {
+    "spanish": "la tienda",
+    "meaning": "das Geschäft",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-11"
+  },
+  {
+    "spanish": "el supermercado",
+    "meaning": "der Supermarkt",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-11"
+  },
+  {
+    "spanish": "la farmacia",
+    "meaning": "die Apotheke",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-11"
+  },
+  {
+    "spanish": "el hospital",
+    "meaning": "das Krankenhaus",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-11"
+  },
+  {
+    "spanish": "la escuela",
+    "meaning": "die Schule",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-11"
+  },
+  {
+    "spanish": "la universidad",
+    "meaning": "die Universität",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-11"
+  },
+  {
+    "spanish": "la oficina",
+    "meaning": "das Büro",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-11"
+  },
+  {
+    "spanish": "el banco",
+    "meaning": "die Bank",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-11"
+  },
+  {
+    "spanish": "el restaurante",
+    "meaning": "das Restaurant",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-11"
+  },
+  {
+    "spanish": "el hotel",
+    "meaning": "das Hotel",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-11"
+  },
+  {
+    "spanish": "la iglesia",
+    "meaning": "die Kirche",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-11"
+  },
+  {
+    "spanish": "el museo",
+    "meaning": "das Museum",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-11"
+  },
+  {
+    "spanish": "la biblioteca",
+    "meaning": "die Bibliothek",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-11"
+  },
+  {
+    "spanish": "la estación",
+    "meaning": "der Bahnhof / die Station",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-11"
+  },
+  {
+    "spanish": "el aeropuerto",
+    "meaning": "der Flughafen",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-11"
+  },
+  {
+    "spanish": "el cine",
+    "meaning": "das Kino",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-11"
+  },
+  {
+    "spanish": "la gasolinera",
+    "meaning": "die Tankstelle",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-11"
+  },
+  {
+    "spanish": "la panadería",
+    "meaning": "die Bäckerei",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-11"
+  },
+  {
+    "spanish": "el estacionamiento",
+    "meaning": "der Parkplatz",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-11",
+    "note": "MX-Wort, Spanien: aparcamiento",
+    "mexico": true
+  },
+  {
+    "spanish": "el teatro",
+    "meaning": "das Theater",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-11"
+  },
+  {
+    "spanish": "el coche",
+    "meaning": "das Auto",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-12"
+  },
+  {
+    "spanish": "el carro",
+    "meaning": "das Auto",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-12",
+    "note": "MX-Wort",
+    "mexico": true
+  },
+  {
+    "spanish": "el autobús",
+    "meaning": "der Bus",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-12"
+  },
+  {
+    "spanish": "el camión",
+    "meaning": "der Bus",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-12",
+    "note": "MX: Stadtbus; in Spanien: LKW",
+    "mexico": true
+  },
+  {
+    "spanish": "el metro",
+    "meaning": "die U-Bahn",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-12"
+  },
+  {
+    "spanish": "el taxi",
+    "meaning": "das Taxi",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-12"
+  },
+  {
+    "spanish": "la bicicleta",
+    "meaning": "das Fahrrad",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-12"
+  },
+  {
+    "spanish": "la motocicleta",
+    "meaning": "das Motorrad",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-12"
+  },
+  {
+    "spanish": "el tren",
+    "meaning": "der Zug",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-12"
+  },
+  {
+    "spanish": "el avión",
+    "meaning": "das Flugzeug",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-12"
+  },
+  {
+    "spanish": "la carretera",
+    "meaning": "die Landstraße",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-12"
+  },
+  {
+    "spanish": "el semáforo",
+    "meaning": "die Ampel",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-12"
+  },
+  {
+    "spanish": "la esquina",
+    "meaning": "die Ecke",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-12"
+  },
+  {
+    "spanish": "el boleto",
+    "meaning": "die Fahrkarte",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-12",
+    "note": "MX-Wort, Spanien: billete",
+    "mexico": true
+  },
+  {
+    "spanish": "la maleta",
+    "meaning": "der Koffer",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-12"
+  },
+  {
+    "spanish": "la mochila",
+    "meaning": "der Rucksack",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-12"
+  },
+  {
+    "spanish": "el pasaporte",
+    "meaning": "der Reisepass",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-12"
+  },
+  {
+    "spanish": "el equipaje",
+    "meaning": "das Gepäck",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-12"
+  },
+  {
+    "spanish": "el vuelo",
+    "meaning": "der Flug",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-12"
+  },
+  {
+    "spanish": "el viaje",
+    "meaning": "die Reise",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-12"
+  },
+  {
+    "spanish": "el mapa",
+    "meaning": "die Karte",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-12"
+  },
+  {
+    "spanish": "la dirección",
+    "meaning": "die Adresse / die Richtung",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-12"
+  },
+  {
+    "spanish": "manejar",
+    "meaning": "fahren",
+    "wordClass": "Verb",
+    "lesson": "1-12",
+    "note": "MX-Wort, Spanien: conducir",
+    "mexico": true
+  },
+  {
+    "spanish": "estacionar",
+    "meaning": "parken",
+    "wordClass": "Verb",
+    "lesson": "1-12"
+  },
+  {
+    "spanish": "el cruce",
+    "meaning": "die Kreuzung",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-12"
+  },
+  {
+    "spanish": "el animal",
+    "meaning": "das Tier",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-13"
+  },
+  {
+    "spanish": "el perro",
+    "meaning": "der Hund",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-13"
+  },
+  {
+    "spanish": "el gato",
+    "meaning": "die Katze",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-13"
+  },
+  {
+    "spanish": "el pájaro",
+    "meaning": "der Vogel",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-13"
+  },
+  {
+    "spanish": "el pez",
+    "meaning": "der Fisch",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-13",
+    "note": "als Lebewesen"
+  },
+  {
+    "spanish": "el caballo",
+    "meaning": "das Pferd",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-13"
+  },
+  {
+    "spanish": "la vaca",
+    "meaning": "die Kuh",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-13"
+  },
+  {
+    "spanish": "el cerdo",
+    "meaning": "das Schwein",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-13"
+  },
+  {
+    "spanish": "la oveja",
+    "meaning": "das Schaf",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-13"
+  },
+  {
+    "spanish": "la cabra",
+    "meaning": "die Ziege",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-13"
+  },
+  {
+    "spanish": "la gallina",
+    "meaning": "das Huhn",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-13"
+  },
+  {
+    "spanish": "el pato",
+    "meaning": "die Ente",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-13"
+  },
+  {
+    "spanish": "el conejo",
+    "meaning": "das Kaninchen",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-13"
+  },
+  {
+    "spanish": "el ratón",
+    "meaning": "die Maus",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-13"
+  },
+  {
+    "spanish": "el león",
+    "meaning": "der Löwe",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-13"
+  },
+  {
+    "spanish": "el tigre",
+    "meaning": "der Tiger",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-13"
+  },
+  {
+    "spanish": "el oso",
+    "meaning": "der Bär",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-13"
+  },
+  {
+    "spanish": "el elefante",
+    "meaning": "der Elefant",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-13"
+  },
+  {
+    "spanish": "el mono",
+    "meaning": "der Affe",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-13"
+  },
+  {
+    "spanish": "la serpiente",
+    "meaning": "die Schlange",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-13"
+  },
+  {
+    "spanish": "la araña",
+    "meaning": "die Spinne",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-13"
+  },
+  {
+    "spanish": "la abeja",
+    "meaning": "die Biene",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-13"
+  },
+  {
+    "spanish": "la mariposa",
+    "meaning": "der Schmetterling",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-13"
+  },
+  {
+    "spanish": "la tortuga",
+    "meaning": "die Schildkröte",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-13"
+  },
+  {
+    "spanish": "grande",
+    "meaning": "groß",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "pequeño",
+    "meaning": "klein",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "alto",
+    "meaning": "hoch / groß",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "bajo",
+    "meaning": "niedrig / klein",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "bonito",
+    "meaning": "schön / hübsch",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "feo",
+    "meaning": "hässlich",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "nuevo",
+    "meaning": "neu",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "viejo",
+    "meaning": "alt",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "joven",
+    "meaning": "jung",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "bueno",
+    "meaning": "gut",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "malo",
+    "meaning": "schlecht",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "fácil",
+    "meaning": "einfach",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "difícil",
+    "meaning": "schwer / schwierig",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "rápido",
+    "meaning": "schnell",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "lento",
+    "meaning": "langsam",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "caro",
+    "meaning": "teuer",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "barato",
+    "meaning": "billig",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "limpio",
+    "meaning": "sauber",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "sucio",
+    "meaning": "schmutzig",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "lleno",
+    "meaning": "voll",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "vacío",
+    "meaning": "leer",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "abierto",
+    "meaning": "offen",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "cerrado",
+    "meaning": "geschlossen",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "caliente",
+    "meaning": "heiß",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "frío",
+    "meaning": "kalt",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14",
+    "note": "auch Nomen: die Kälte"
+  },
+  {
+    "spanish": "duro",
+    "meaning": "hart",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "suave",
+    "meaning": "weich / sanft",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "fuerte",
+    "meaning": "stark",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "débil",
+    "meaning": "schwach",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "feliz",
+    "meaning": "glücklich",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "triste",
+    "meaning": "traurig",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "cansado",
+    "meaning": "müde",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "importante",
+    "meaning": "wichtig",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "divertido",
+    "meaning": "lustig",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "ocupado",
+    "meaning": "beschäftigt",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "libre",
+    "meaning": "frei",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "interesante",
+    "meaning": "interessant",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "seguro",
+    "meaning": "sicher",
+    "wordClass": "Adjektiv",
+    "lesson": "1-14"
+  },
+  {
+    "spanish": "ser",
+    "meaning": "sein",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "estar",
+    "meaning": "sein",
+    "wordClass": "Verb",
+    "lesson": "1-15",
+    "note": "Zustand/Ort"
+  },
+  {
+    "spanish": "tener",
+    "meaning": "haben",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "hacer",
+    "meaning": "machen / tun",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "ir",
+    "meaning": "gehen",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "venir",
+    "meaning": "kommen",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "ver",
+    "meaning": "sehen",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "escuchar",
+    "meaning": "zuhören / hören",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "hablar",
+    "meaning": "sprechen",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "decir",
+    "meaning": "sagen",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "comer",
+    "meaning": "essen",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "beber",
+    "meaning": "trinken",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "dormir",
+    "meaning": "schlafen",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "despertar",
+    "meaning": "aufwachen",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "levantarse",
+    "meaning": "aufstehen",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "trabajar",
+    "meaning": "arbeiten",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "estudiar",
+    "meaning": "studieren / lernen",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "leer",
+    "meaning": "lesen",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "escribir",
+    "meaning": "schreiben",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "aprender",
+    "meaning": "lernen",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "comprar",
+    "meaning": "kaufen",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "vender",
+    "meaning": "verkaufen",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "pagar",
+    "meaning": "bezahlen",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "buscar",
+    "meaning": "suchen",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "encontrar",
+    "meaning": "finden",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "querer",
+    "meaning": "wollen / mögen",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "necesitar",
+    "meaning": "brauchen",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "poder",
+    "meaning": "können",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "saber",
+    "meaning": "wissen",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "conocer",
+    "meaning": "kennen",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "pensar",
+    "meaning": "denken",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "sentir",
+    "meaning": "fühlen",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "gustar",
+    "meaning": "gefallen",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "vivir",
+    "meaning": "leben / wohnen",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "llegar",
+    "meaning": "ankommen",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "salir",
+    "meaning": "hinausgehen",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "jugar",
+    "meaning": "spielen",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "ayudar",
+    "meaning": "helfen",
+    "wordClass": "Verb",
+    "lesson": "1-15"
+  },
+  {
+    "spanish": "qué",
+    "meaning": "was",
+    "wordClass": "Fragewort",
+    "lesson": "1-16"
+  },
+  {
+    "spanish": "quién",
+    "meaning": "wer",
+    "wordClass": "Fragewort",
+    "lesson": "1-16"
+  },
+  {
+    "spanish": "cuál",
+    "meaning": "welcher",
+    "wordClass": "Fragewort",
+    "lesson": "1-16"
+  },
+  {
+    "spanish": "cómo",
+    "meaning": "wie",
+    "wordClass": "Fragewort",
+    "lesson": "1-16"
+  },
+  {
+    "spanish": "cuándo",
+    "meaning": "wann",
+    "wordClass": "Fragewort",
+    "lesson": "1-16"
+  },
+  {
+    "spanish": "dónde",
+    "meaning": "wo",
+    "wordClass": "Fragewort",
+    "lesson": "1-16"
+  },
+  {
+    "spanish": "por qué",
+    "meaning": "warum",
+    "wordClass": "Fragewort",
+    "lesson": "1-16"
+  },
+  {
+    "spanish": "cuánto",
+    "meaning": "wie viel",
+    "wordClass": "Fragewort",
+    "lesson": "1-16"
+  },
+  {
+    "spanish": "yo",
+    "meaning": "ich",
+    "wordClass": "Pronomen",
+    "lesson": "1-16"
+  },
+  {
+    "spanish": "tú",
+    "meaning": "du",
+    "wordClass": "Pronomen",
+    "lesson": "1-16"
+  },
+  {
+    "spanish": "él",
+    "meaning": "er",
+    "wordClass": "Pronomen",
+    "lesson": "1-16"
+  },
+  {
+    "spanish": "ella",
+    "meaning": "sie",
+    "wordClass": "Pronomen",
+    "lesson": "1-16"
+  },
+  {
+    "spanish": "nosotros",
+    "meaning": "wir",
+    "wordClass": "Pronomen",
+    "lesson": "1-16"
+  },
+  {
+    "spanish": "ustedes",
+    "meaning": "ihr / Sie",
+    "wordClass": "Pronomen",
+    "lesson": "1-16",
+    "note": "MX: Plural, statt vosotros",
+    "mexico": true
+  },
+  {
+    "spanish": "ellos",
+    "meaning": "sie",
+    "wordClass": "Pronomen",
+    "lesson": "1-16",
+    "note": "Plural"
+  },
+  {
+    "spanish": "mi",
+    "meaning": "mein",
+    "wordClass": "Pronomen",
+    "lesson": "1-16"
+  },
+  {
+    "spanish": "tu",
+    "meaning": "dein",
+    "wordClass": "Pronomen",
+    "lesson": "1-16"
+  },
+  {
+    "spanish": "este",
+    "meaning": "dieser",
+    "wordClass": "Pronomen",
+    "lesson": "1-16"
+  },
+  {
+    "spanish": "la alegría",
+    "meaning": "die Freude",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-17"
+  },
+  {
+    "spanish": "la tristeza",
+    "meaning": "die Traurigkeit",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-17"
+  },
+  {
+    "spanish": "el miedo",
+    "meaning": "die Angst",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-17"
+  },
+  {
+    "spanish": "el enojo",
+    "meaning": "die Wut",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-17",
+    "note": "MX-Wort, Spanien eher: enfado",
+    "mexico": true
+  },
+  {
+    "spanish": "la sorpresa",
+    "meaning": "die Überraschung",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-17"
+  },
+  {
+    "spanish": "el amor",
+    "meaning": "die Liebe",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-17"
+  },
+  {
+    "spanish": "la vergüenza",
+    "meaning": "die Scham",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-17"
+  },
+  {
+    "spanish": "el orgullo",
+    "meaning": "der Stolz",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-17"
+  },
+  {
+    "spanish": "la esperanza",
+    "meaning": "die Hoffnung",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-17"
+  },
+  {
+    "spanish": "la preocupación",
+    "meaning": "die Sorge",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-17"
+  },
+  {
+    "spanish": "la calma",
+    "meaning": "die Ruhe",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-17"
+  },
+  {
+    "spanish": "el estrés",
+    "meaning": "der Stress",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-17"
+  },
+  {
+    "spanish": "los nervios",
+    "meaning": "die Nervosität",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-17"
+  },
+  {
+    "spanish": "la confianza",
+    "meaning": "das Vertrauen",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-17"
+  },
+  {
+    "spanish": "los celos",
+    "meaning": "die Eifersucht",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-17"
+  },
+  {
+    "spanish": "la soledad",
+    "meaning": "die Einsamkeit",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-17"
+  },
+  {
+    "spanish": "la ansiedad",
+    "meaning": "der Angstzustand",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-17"
+  },
+  {
+    "spanish": "la paz",
+    "meaning": "der Frieden",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-17"
+  },
+  {
+    "spanish": "el precio",
+    "meaning": "der Preis",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-18"
+  },
+  {
+    "spanish": "la oferta",
+    "meaning": "das Angebot",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-18"
+  },
+  {
+    "spanish": "el descuento",
+    "meaning": "der Rabatt",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-18"
+  },
+  {
+    "spanish": "el efectivo",
+    "meaning": "das Bargeld",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-18"
+  },
+  {
+    "spanish": "la tarjeta",
+    "meaning": "die Karte",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-18"
+  },
+  {
+    "spanish": "el cambio",
+    "meaning": "das Wechselgeld",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-18"
+  },
+  {
+    "spanish": "el recibo",
+    "meaning": "die Quittung",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-18"
+  },
+  {
+    "spanish": "la caja",
+    "meaning": "die Kasse",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-18"
+  },
+  {
+    "spanish": "el cajero",
+    "meaning": "der Kassierer",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-18"
+  },
+  {
+    "spanish": "probarse",
+    "meaning": "anprobieren",
+    "wordClass": "Verb",
+    "lesson": "1-18"
+  },
+  {
+    "spanish": "la talla",
+    "meaning": "die Größe",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-18",
+    "note": "Kleidung"
+  },
+  {
+    "spanish": "el número",
+    "meaning": "die Größe",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-18",
+    "note": "Schuhe"
+  },
+  {
+    "spanish": "la marca",
+    "meaning": "die Marke",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-18"
+  },
+  {
+    "spanish": "la calidad",
+    "meaning": "die Qualität",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-18"
+  },
+  {
+    "spanish": "el carrito",
+    "meaning": "der Einkaufswagen",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-18"
+  },
+  {
+    "spanish": "arriba",
+    "meaning": "oben",
+    "wordClass": "Adverb",
+    "lesson": "1-19"
+  },
+  {
+    "spanish": "abajo",
+    "meaning": "unten",
+    "wordClass": "Adverb",
+    "lesson": "1-19"
+  },
+  {
+    "spanish": "adelante",
+    "meaning": "vorne",
+    "wordClass": "Adverb",
+    "lesson": "1-19"
+  },
+  {
+    "spanish": "atrás",
+    "meaning": "hinten",
+    "wordClass": "Adverb",
+    "lesson": "1-19"
+  },
+  {
+    "spanish": "izquierda",
+    "meaning": "links",
+    "wordClass": "Adverb",
+    "lesson": "1-19"
+  },
+  {
+    "spanish": "derecha",
+    "meaning": "rechts",
+    "wordClass": "Adverb",
+    "lesson": "1-19"
+  },
+  {
+    "spanish": "cerca",
+    "meaning": "nah",
+    "wordClass": "Adverb",
+    "lesson": "1-19"
+  },
+  {
+    "spanish": "lejos",
+    "meaning": "weit",
+    "wordClass": "Adverb",
+    "lesson": "1-19"
+  },
+  {
+    "spanish": "dentro",
+    "meaning": "innen / drinnen",
+    "wordClass": "Adverb",
+    "lesson": "1-19"
+  },
+  {
+    "spanish": "fuera",
+    "meaning": "außen / draußen",
+    "wordClass": "Adverb",
+    "lesson": "1-19"
+  },
+  {
+    "spanish": "entre",
+    "meaning": "zwischen",
+    "wordClass": "Präposition",
+    "lesson": "1-19"
+  },
+  {
+    "spanish": "sobre",
+    "meaning": "über / auf",
+    "wordClass": "Präposition",
+    "lesson": "1-19"
+  },
+  {
+    "spanish": "debajo",
+    "meaning": "unter",
+    "wordClass": "Präposition",
+    "lesson": "1-19"
+  },
+  {
+    "spanish": "el teléfono",
+    "meaning": "das Telefon",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-20"
+  },
+  {
+    "spanish": "el celular",
+    "meaning": "das Handy",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-20",
+    "note": "MX-Wort, Spanien: móvil",
+    "mexico": true
+  },
+  {
+    "spanish": "la computadora",
+    "meaning": "der Computer",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-20",
+    "note": "MX-Wort, Spanien: ordenador",
+    "mexico": true
+  },
+  {
+    "spanish": "el correo electrónico",
+    "meaning": "die E-Mail",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-20"
+  },
+  {
+    "spanish": "internet",
+    "meaning": "das Internet",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-20"
+  },
+  {
+    "spanish": "el dinero",
+    "meaning": "das Geld",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-20"
+  },
+  {
+    "spanish": "el trabajo",
+    "meaning": "die Arbeit",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-20"
+  },
+  {
+    "spanish": "el problema",
+    "meaning": "das Problem",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-20"
+  },
+  {
+    "spanish": "la idea",
+    "meaning": "die Idee",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-20"
+  },
+  {
+    "spanish": "la pregunta",
+    "meaning": "die Frage",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-20"
+  },
+  {
+    "spanish": "la respuesta",
+    "meaning": "die Antwort",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-20"
+  },
+  {
+    "spanish": "la cosa",
+    "meaning": "die Sache / das Ding",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-20"
+  },
+  {
+    "spanish": "la persona",
+    "meaning": "die Person",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-20"
+  },
+  {
+    "spanish": "la gente",
+    "meaning": "die Leute",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-20"
+  },
+  {
+    "spanish": "el amigo",
+    "meaning": "der Freund",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-20"
+  },
+  {
+    "spanish": "la vida",
+    "meaning": "das Leben",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-20"
+  },
+  {
+    "spanish": "el mundo",
+    "meaning": "die Welt",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-20"
+  },
+  {
+    "spanish": "el país",
+    "meaning": "das Land",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-20"
+  },
+  {
+    "spanish": "el nombre",
+    "meaning": "der Name",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-20",
+    "note": "Vorname"
+  },
+  {
+    "spanish": "el apellido",
+    "meaning": "der Nachname",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-20"
+  },
+  {
+    "spanish": "la edad",
+    "meaning": "das Alter",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-20"
+  },
+  {
+    "spanish": "el cumpleaños",
+    "meaning": "der Geburtstag",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-20"
+  },
+  {
+    "spanish": "el regalo",
+    "meaning": "das Geschenk",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-20"
+  },
+  {
+    "spanish": "la fiesta",
+    "meaning": "die Party / das Fest",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-20"
+  },
+  {
+    "spanish": "la música",
+    "meaning": "die Musik",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-20"
+  },
+  {
+    "spanish": "la película",
+    "meaning": "der Film",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-20"
+  },
+  {
+    "spanish": "el libro",
+    "meaning": "das Buch",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "1-20"
+  },
+  {
+    "spanish": "la salud",
+    "meaning": "die Gesundheit",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "1-20"
+  },
+  {
+    "spanish": "el proceso",
+    "meaning": "der Prozess",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "la gestión de procesos",
+    "meaning": "das Prozessmanagement",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "el proceso de negocio",
+    "meaning": "der Geschäftsprozess",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "el subproceso",
+    "meaning": "der Teilprozess",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "la actividad",
+    "meaning": "die Aktivität",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "la tarea",
+    "meaning": "die Aufgabe",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "la entrada",
+    "meaning": "der Input / die Eingabe",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "la salida",
+    "meaning": "der Output / die Ausgabe",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "el recurso",
+    "meaning": "die Ressource",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "el propietario del proceso",
+    "meaning": "der Prozesseigentümer",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "el responsable del proceso",
+    "meaning": "der Prozessverantwortliche",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "el participante del proceso",
+    "meaning": "der Prozessbeteiligte",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "el cliente del proceso",
+    "meaning": "der Prozesskunde",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "el proveedor",
+    "meaning": "der Lieferant",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "el valor añadido",
+    "meaning": "der Mehrwert",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "la cadena de valor",
+    "meaning": "die Wertschöpfungskette",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "el flujo de trabajo",
+    "meaning": "der Workflow / der Arbeitsablauf",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "el flujo de proceso",
+    "meaning": "der Prozessablauf",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "el ciclo de vida del proceso",
+    "meaning": "der Prozesslebenszyklus",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "la eficiencia",
+    "meaning": "die Effizienz",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "la eficacia",
+    "meaning": "die Effektivität",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "el rendimiento",
+    "meaning": "die Leistung",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "el indicador clave de rendimiento",
+    "meaning": "die Leistungskennzahl",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-1",
+    "note": "Abkürzung: KPI"
+  },
+  {
+    "spanish": "la métrica",
+    "meaning": "die Metrik / die Kennzahl",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "el objetivo del proceso",
+    "meaning": "das Prozessziel",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "la regla de negocio",
+    "meaning": "die Geschäftsregel",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "la excepción",
+    "meaning": "die Ausnahme",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "el punto de decisión",
+    "meaning": "der Entscheidungspunkt",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "el punto de control",
+    "meaning": "der Kontrollpunkt",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "el cuello de botella",
+    "meaning": "der Engpass",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "la cadena de suministro",
+    "meaning": "die Lieferkette",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "el mapa de procesos",
+    "meaning": "die Prozesslandkarte",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "la jerarquía de procesos",
+    "meaning": "die Prozesshierarchie",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "el nivel de proceso",
+    "meaning": "die Prozessebene",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "el proceso principal",
+    "meaning": "der Hauptprozess",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "el proceso de apoyo",
+    "meaning": "der Unterstützungsprozess",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "el proceso de gestión",
+    "meaning": "der Führungsprozess",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "el proceso operativo",
+    "meaning": "operativer Prozess",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "el proceso transversal",
+    "meaning": "bereichsübergreifender Prozess",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "la interfaz de proceso",
+    "meaning": "die Prozessschnittstelle",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "la documentación de procesos",
+    "meaning": "die Prozessdokumentation",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "el manual de procesos",
+    "meaning": "das Prozesshandbuch",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "la estandarización",
+    "meaning": "die Standardisierung",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "la automatización de procesos",
+    "meaning": "die Prozessautomatisierung",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "la digitalización",
+    "meaning": "die Digitalisierung",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "la transformación digital",
+    "meaning": "digitale Transformation",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "la reingeniería de procesos",
+    "meaning": "das Prozess-Reengineering",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "la mejora continua",
+    "meaning": "kontinuierliche Verbesserung",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "el ciclo PDCA",
+    "meaning": "der PDCA-Zyklus",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-1",
+    "note": "Plan-Do-Check-Act"
+  },
+  {
+    "spanish": "la gestión del cambio",
+    "meaning": "das Change Management",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "la madurez del proceso",
+    "meaning": "der Prozessreifegrad",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "el modelo de madurez",
+    "meaning": "das Reifegradmodell",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "la gobernanza de procesos",
+    "meaning": "die Prozess-Governance",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "el cumplimiento normativo",
+    "meaning": "regulatorische Compliance",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "el riesgo del proceso",
+    "meaning": "das Prozessrisiko",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "la gestión de riesgos",
+    "meaning": "das Risikomanagement",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "la auditoría de procesos",
+    "meaning": "das Prozessaudit",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "la brecha de proceso",
+    "meaning": "die Prozesslücke",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "el rediseño de procesos",
+    "meaning": "die Prozessneugestaltung",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "el proceso actual",
+    "meaning": "der Ist-Prozess",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-1",
+    "note": "auch: as-is"
+  },
+  {
+    "spanish": "el proceso futuro",
+    "meaning": "der Soll-Prozess",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-1",
+    "note": "auch: to-be"
+  },
+  {
+    "spanish": "la línea base",
+    "meaning": "die Ausgangsbasis / die Baseline",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "la capacidad del proceso",
+    "meaning": "die Prozessfähigkeit",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-1"
+  },
+  {
+    "spanish": "el proceso estratégico",
+    "meaning": "strategischer Prozess",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-2"
+  },
+  {
+    "spanish": "el proceso central",
+    "meaning": "der Kernprozess",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-2"
+  },
+  {
+    "spanish": "el proceso clave",
+    "meaning": "der Schlüsselprozess",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-2"
+  },
+  {
+    "spanish": "el proceso de soporte",
+    "meaning": "unterstützender Prozess",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-2"
+  },
+  {
+    "spanish": "el proceso de dirección",
+    "meaning": "der Führungsprozess",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-2"
+  },
+  {
+    "spanish": "la categoría de proceso",
+    "meaning": "die Prozesskategorie",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-2"
+  },
+  {
+    "spanish": "la familia de procesos",
+    "meaning": "die Prozessfamilie",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-2"
+  },
+  {
+    "spanish": "el dominio de proceso",
+    "meaning": "die Prozessdomäne",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-2"
+  },
+  {
+    "spanish": "el área funcional",
+    "meaning": "der Funktionsbereich",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-2"
+  },
+  {
+    "spanish": "la unidad organizativa",
+    "meaning": "die Organisationseinheit",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-2"
+  },
+  {
+    "spanish": "el departamento",
+    "meaning": "die Abteilung",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-2"
+  },
+  {
+    "spanish": "la función de negocio",
+    "meaning": "die Geschäftsfunktion",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-2"
+  },
+  {
+    "spanish": "la capacidad de negocio",
+    "meaning": "die Geschäftsfähigkeit",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-2",
+    "note": "Business Capability"
+  },
+  {
+    "spanish": "el modelo de capacidades",
+    "meaning": "das Capability-Modell",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-2"
+  },
+  {
+    "spanish": "la estructura organizativa",
+    "meaning": "die Organisationsstruktur",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-2"
+  },
+  {
+    "spanish": "la organigrama",
+    "meaning": "das Organigramm",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-2"
+  },
+  {
+    "spanish": "la matriz de responsabilidades",
+    "meaning": "die Verantwortungsmatrix",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-2",
+    "note": "z. B. RACI"
+  },
+  {
+    "spanish": "la matriz RACI",
+    "meaning": "die RACI-Matrix",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-2"
+  },
+  {
+    "spanish": "el responsable",
+    "meaning": "der Verantwortliche",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-2",
+    "note": "R in RACI"
+  },
+  {
+    "spanish": "el aprobador",
+    "meaning": "der Genehmigende",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-2",
+    "note": "A in RACI"
+  },
+  {
+    "spanish": "el consultado",
+    "meaning": "der Konsultierte",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-2",
+    "note": "C in RACI"
+  },
+  {
+    "spanish": "el informado",
+    "meaning": "der Informierte",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-2",
+    "note": "I in RACI"
+  },
+  {
+    "spanish": "el rol",
+    "meaning": "die Rolle",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-2"
+  },
+  {
+    "spanish": "el perfil de rol",
+    "meaning": "das Rollenprofil",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-2"
+  },
+  {
+    "spanish": "la parte interesada",
+    "meaning": "der Interessenvertreter / der Stakeholder",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-2"
+  },
+  {
+    "spanish": "el grupo de interés",
+    "meaning": "interessierte Partei",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-2"
+  },
+  {
+    "spanish": "el comité de procesos",
+    "meaning": "der Prozessausschuss",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-2"
+  },
+  {
+    "spanish": "el consejo de gobierno",
+    "meaning": "das Steuerungsgremium",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-2"
+  },
+  {
+    "spanish": "el ciclo de gobernanza",
+    "meaning": "der Governance-Zyklus",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-2"
+  },
+  {
+    "spanish": "la política",
+    "meaning": "die Richtlinie",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-2"
+  },
+  {
+    "spanish": "la norma",
+    "meaning": "die Norm / die Vorschrift",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-2"
+  },
+  {
+    "spanish": "el procedimiento",
+    "meaning": "das Verfahren",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-2"
+  },
+  {
+    "spanish": "la instrucción de trabajo",
+    "meaning": "die Arbeitsanweisung",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-2"
+  },
+  {
+    "spanish": "la plantilla",
+    "meaning": "die Vorlage",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-2"
+  },
+  {
+    "spanish": "la lista de verificación",
+    "meaning": "die Checkliste",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-2"
+  },
+  {
+    "spanish": "el formulario",
+    "meaning": "das Formular",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-2"
+  },
+  {
+    "spanish": "el registro",
+    "meaning": "die Aufzeichnung / das Protokoll",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-2"
+  },
+  {
+    "spanish": "la trazabilidad",
+    "meaning": "die Rückverfolgbarkeit",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-2"
+  },
+  {
+    "spanish": "la versión del proceso",
+    "meaning": "die Prozessversion",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-2"
+  },
+  {
+    "spanish": "el control de versiones",
+    "meaning": "die Versionskontrolle",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-2"
+  },
+  {
+    "spanish": "el repositorio de procesos",
+    "meaning": "das Prozessrepository",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-2"
+  },
+  {
+    "spanish": "el modelado de procesos",
+    "meaning": "die Prozessmodellierung",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "la notación",
+    "meaning": "die Notation",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "la notación de modelado de procesos de negocio",
+    "meaning": "BPMN",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-3",
+    "isProperName": true,
+    "note": "Business Process Model and Notation"
+  },
+  {
+    "spanish": "el diagrama de flujo",
+    "meaning": "das Flussdiagramm",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "el diagrama de procesos",
+    "meaning": "das Prozessdiagramm",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "el evento de inicio",
+    "meaning": "das Startereignis",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "el evento de fin",
+    "meaning": "das Endereignis",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "el evento intermedio",
+    "meaning": "das Zwischenereignis",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "la tarea de usuario",
+    "meaning": "die Benutzeraufgabe",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-3",
+    "note": "User Task"
+  },
+  {
+    "spanish": "la tarea de servicio",
+    "meaning": "die Serviceaufgabe",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-3",
+    "note": "Service Task"
+  },
+  {
+    "spanish": "la tarea manual",
+    "meaning": "manuelle Aufgabe",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "la tarea de script",
+    "meaning": "die Skriptaufgabe",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "la compuerta",
+    "meaning": "das Gateway",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "la compuerta exclusiva",
+    "meaning": "exklusives Gateway",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-3",
+    "note": "XOR"
+  },
+  {
+    "spanish": "la compuerta paralela",
+    "meaning": "paralleles Gateway",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-3",
+    "note": "AND"
+  },
+  {
+    "spanish": "la compuerta inclusiva",
+    "meaning": "inklusives Gateway",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-3",
+    "note": "OR"
+  },
+  {
+    "spanish": "el carril",
+    "meaning": "die Lane / die Schwimmbahn",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "el grupo de carriles",
+    "meaning": "der Pool",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "el flujo de secuencia",
+    "meaning": "der Sequenzfluss",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "el flujo de mensaje",
+    "meaning": "der Nachrichtenfluss",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "la asociación",
+    "meaning": "die Assoziation",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "el artefacto",
+    "meaning": "das Artefakt",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "el objeto de datos",
+    "meaning": "das Datenobjekt",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "la anotación de texto",
+    "meaning": "die Textannotation",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "el subproceso incrustado",
+    "meaning": "eingebetteter Teilprozess",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "el subproceso independiente",
+    "meaning": "eigenständiger Teilprozess",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "el bucle",
+    "meaning": "die Schleife",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "la multiinstancia",
+    "meaning": "die Mehrfachinstanz",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "el token",
+    "meaning": "das Token",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "la herramienta de modelado",
+    "meaning": "das Modellierungswerkzeug",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "la notación gráfica",
+    "meaning": "grafische Notation",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "la simbología",
+    "meaning": "die Symbolik",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "la leyenda",
+    "meaning": "die Legende",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "la convención de nomenclatura",
+    "meaning": "die Namenskonvention",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "el nivel de detalle",
+    "meaning": "der Detaillierungsgrad",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "la vista de proceso",
+    "meaning": "die Prozesssicht",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "la perspectiva funcional",
+    "meaning": "funktionale Perspektive",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "la perspectiva organizativa",
+    "meaning": "organisatorische Perspektive",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "la perspectiva de datos",
+    "meaning": "die Datenperspektive",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "la cadena de proceso impulsada por eventos",
+    "meaning": "ereignisgesteuerte Prozesskette",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-3",
+    "note": "EPK"
+  },
+  {
+    "spanish": "el evento de temporizador",
+    "meaning": "das Zeitereignis",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-3",
+    "note": "Timer Event"
+  },
+  {
+    "spanish": "el evento de mensaje",
+    "meaning": "das Nachrichtenereignis",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "el evento de error",
+    "meaning": "das Fehlerereignis",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "el evento de señal",
+    "meaning": "das Signalereignis",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "el evento de cancelación",
+    "meaning": "das Abbruchereignis",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "el evento de compensación",
+    "meaning": "das Kompensationsereignis",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "la tarea de recepción",
+    "meaning": "die Empfangsaufgabe",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-3",
+    "note": "Receive Task"
+  },
+  {
+    "spanish": "la tarea de envío",
+    "meaning": "die Sendeaufgabe",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-3",
+    "note": "Send Task"
+  },
+  {
+    "spanish": "el proceso colaborativo",
+    "meaning": "kollaborativer Prozess",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "la coreografía de procesos",
+    "meaning": "die Prozesschoreografie",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "la orquestación de procesos",
+    "meaning": "die Prozessorchestrierung",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "el motor de flujo de trabajo",
+    "meaning": "die Workflow-Engine",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "la gestión de procesos de negocio",
+    "meaning": "das Business Process Management",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-3",
+    "note": "BPM"
+  },
+  {
+    "spanish": "la suite de gestión de procesos de negocio",
+    "meaning": "die BPM-Suite",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "el sistema de gestión de procesos de negocio",
+    "meaning": "das BPM-System",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-3",
+    "note": "BPMS"
+  },
+  {
+    "spanish": "la notación estándar",
+    "meaning": "die Standardnotation",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "el diagrama de contexto",
+    "meaning": "das Kontextdiagramm",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "el diagrama de casos de uso",
+    "meaning": "das Anwendungsfalldiagramm",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "el caso de uso",
+    "meaning": "der Anwendungsfall",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-3",
+    "note": "Use Case"
+  },
+  {
+    "spanish": "el actor",
+    "meaning": "der Akteur",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "el escenario",
+    "meaning": "das Szenario",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "el requisito funcional",
+    "meaning": "funktionale Anforderung",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "el requisito no funcional",
+    "meaning": "nichtfunktionale Anforderung",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "la especificación de requisitos",
+    "meaning": "die Anforderungsspezifikation",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "la validación",
+    "meaning": "die Validierung",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "la verificación",
+    "meaning": "die Verifizierung",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-3"
+  },
+  {
+    "spanish": "el análisis de procesos",
+    "meaning": "die Prozessanalyse",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-4"
+  },
+  {
+    "spanish": "la optimización de procesos",
+    "meaning": "die Prozessoptimierung",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-4"
+  },
+  {
+    "spanish": "el diagnóstico de procesos",
+    "meaning": "die Prozessdiagnose",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-4"
+  },
+  {
+    "spanish": "la simulación de procesos",
+    "meaning": "die Prozesssimulation",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-4"
+  },
+  {
+    "spanish": "el tiempo de ciclo",
+    "meaning": "die Zykluszeit",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-4"
+  },
+  {
+    "spanish": "el tiempo de espera",
+    "meaning": "die Wartezeit",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-4"
+  },
+  {
+    "spanish": "el tiempo de procesamiento",
+    "meaning": "die Bearbeitungszeit",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-4"
+  },
+  {
+    "spanish": "el tiempo de entrega",
+    "meaning": "die Durchlaufzeit",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-4",
+    "note": "Lead Time"
+  },
+  {
+    "spanish": "la capacidad instalada",
+    "meaning": "installierte Kapazität",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-4"
+  },
+  {
+    "spanish": "la utilización",
+    "meaning": "die Auslastung",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-4"
+  },
+  {
+    "spanish": "el desperdicio",
+    "meaning": "die Verschwendung",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-4"
+  },
+  {
+    "spanish": "la actividad sin valor añadido",
+    "meaning": "nicht wertschöpfende Tätigkeit",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-4"
+  },
+  {
+    "spanish": "la gestión esbelta",
+    "meaning": "das Lean Management",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-4"
+  },
+  {
+    "spanish": "la manufactura esbelta",
+    "meaning": "schlanke Produktion",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-4"
+  },
+  {
+    "spanish": "Six Sigma",
+    "meaning": "Six Sigma",
+    "wordClass": "Substantiv",
+    "lesson": "2-4",
+    "isProperName": true
+  },
+  {
+    "spanish": "el kaizen",
+    "meaning": "Kaizen",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-4",
+    "isProperName": true
+  },
+  {
+    "spanish": "el kanban",
+    "meaning": "Kanban",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-4",
+    "isProperName": true
+  },
+  {
+    "spanish": "justo a tiempo",
+    "meaning": "Just-in-Time",
+    "wordClass": "Phrase",
+    "lesson": "2-4"
+  },
+  {
+    "spanish": "el diagrama de Ishikawa",
+    "meaning": "das Ishikawa-Diagramm",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-4"
+  },
+  {
+    "spanish": "el análisis de causa raíz",
+    "meaning": "die Ursachenanalyse",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-4"
+  },
+  {
+    "spanish": "el diagrama de Pareto",
+    "meaning": "das Pareto-Diagramm",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-4"
+  },
+  {
+    "spanish": "el benchmarking",
+    "meaning": "das Benchmarking",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-4"
+  },
+  {
+    "spanish": "el cuadro de mando",
+    "meaning": "das Kennzahlensystem",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-4"
+  },
+  {
+    "spanish": "el cuadro de mando integral",
+    "meaning": "die Balanced Scorecard",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-4"
+  },
+  {
+    "spanish": "el panel de control",
+    "meaning": "das Dashboard",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-4"
+  },
+  {
+    "spanish": "el umbral",
+    "meaning": "der Schwellenwert",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-4"
+  },
+  {
+    "spanish": "la desviación",
+    "meaning": "die Abweichung",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-4"
+  },
+  {
+    "spanish": "la variabilidad",
+    "meaning": "die Variabilität",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-4"
+  },
+  {
+    "spanish": "la capacidad ociosa",
+    "meaning": "die Leerlaufkapazität",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-4"
+  },
+  {
+    "spanish": "la sobrecarga",
+    "meaning": "die Überlastung",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-4"
+  },
+  {
+    "spanish": "la redundancia",
+    "meaning": "die Redundanz",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-4"
+  },
+  {
+    "spanish": "la duplicidad de trabajo",
+    "meaning": "die Doppelarbeit",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-4"
+  },
+  {
+    "spanish": "el retrabajo",
+    "meaning": "die Nacharbeit",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-4"
+  },
+  {
+    "spanish": "la tasa de error",
+    "meaning": "die Fehlerquote",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-4"
+  },
+  {
+    "spanish": "la tasa de defectos",
+    "meaning": "die Fehlerrate",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-4"
+  },
+  {
+    "spanish": "el nivel de servicio",
+    "meaning": "das Service-Level",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-4"
+  },
+  {
+    "spanish": "el acuerdo de nivel de servicio",
+    "meaning": "das Service Level Agreement",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-4",
+    "note": "SLA"
+  },
+  {
+    "spanish": "el indicador de gestión",
+    "meaning": "die Steuerungskennzahl",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-4"
+  },
+  {
+    "spanish": "la meta",
+    "meaning": "die Zielvorgabe",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-4"
+  },
+  {
+    "spanish": "la línea de tendencia",
+    "meaning": "die Trendlinie",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-4"
+  },
+  {
+    "spanish": "la arquitectura de procesos",
+    "meaning": "die Prozessarchitektur",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "el marco de arquitectura",
+    "meaning": "das Architektur-Framework",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "la capa de proceso",
+    "meaning": "die Prozessebene",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "la capa de negocio",
+    "meaning": "die Geschäftsebene",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "la capa de aplicación",
+    "meaning": "die Anwendungsebene",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "la capa de tecnología",
+    "meaning": "die Technologieebene",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "la capa de datos",
+    "meaning": "die Datenebene",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "la vista arquitectónica",
+    "meaning": "die Architektursicht",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "el modelo de referencia",
+    "meaning": "das Referenzmodell",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "el patrón de proceso",
+    "meaning": "das Prozessmuster",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "el diseño de procesos",
+    "meaning": "das Prozessdesign",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "la integración de procesos",
+    "meaning": "die Prozessintegration",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "la interoperabilidad",
+    "meaning": "die Interoperabilität",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "la alineación estratégica",
+    "meaning": "strategische Ausrichtung",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "la alineación negocio-TI",
+    "meaning": "das Business-IT-Alignment",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "la arquitectura de referencia",
+    "meaning": "die Referenzarchitektur",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "la arquitectura de solución",
+    "meaning": "die Lösungsarchitektur",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "el principio arquitectónico",
+    "meaning": "das Architekturprinzip",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "el estándar de arquitectura",
+    "meaning": "der Architekturstandard",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "la gobernanza de arquitectura",
+    "meaning": "die Architektur-Governance",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "el comité de arquitectura",
+    "meaning": "das Architekturgremium",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "la deuda técnica",
+    "meaning": "technische Schuld",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "la deuda de procesos",
+    "meaning": "die Prozessschuld",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "la modularidad",
+    "meaning": "die Modularität",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "el desacoplamiento",
+    "meaning": "die Entkopplung",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "la reutilización",
+    "meaning": "die Wiederverwendung",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "la escalabilidad",
+    "meaning": "die Skalierbarkeit",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "la trazabilidad de requisitos",
+    "meaning": "die Anforderungsrückverfolgbarkeit",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "la brecha arquitectónica",
+    "meaning": "die Architekturlücke",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "la hoja de ruta",
+    "meaning": "die Roadmap",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "el plan de transición",
+    "meaning": "der Transitionsplan",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "el estado actual",
+    "meaning": "der Ist-Zustand",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "el estado objetivo",
+    "meaning": "der Soll-Zustand",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "la visión arquitectónica",
+    "meaning": "die Architekturvision",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "el caso de negocio",
+    "meaning": "der Business Case",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "la justificación de negocio",
+    "meaning": "die Geschäftsbegründung",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-5"
+  },
+  {
+    "spanish": "la gestión de la arquitectura empresarial",
+    "meaning": "das Enterprise-Architecture-Management",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-6",
+    "note": "EAM"
+  },
+  {
+    "spanish": "la arquitectura empresarial",
+    "meaning": "die Unternehmensarchitektur",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-6"
+  },
+  {
+    "spanish": "el arquitecto empresarial",
+    "meaning": "der Unternehmensarchitekt",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-6"
+  },
+  {
+    "spanish": "el arquitecto de soluciones",
+    "meaning": "der Lösungsarchitekt",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-6"
+  },
+  {
+    "spanish": "el arquitecto de negocio",
+    "meaning": "der Business-Architekt",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-6"
+  },
+  {
+    "spanish": "el arquitecto de datos",
+    "meaning": "der Datenarchitekt",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-6"
+  },
+  {
+    "spanish": "el arquitecto de aplicaciones",
+    "meaning": "der Anwendungsarchitekt",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-6"
+  },
+  {
+    "spanish": "el arquitecto de infraestructura",
+    "meaning": "der Infrastrukturarchitekt",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-6"
+  },
+  {
+    "spanish": "el portafolio de aplicaciones",
+    "meaning": "das Anwendungsportfolio",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-6"
+  },
+  {
+    "spanish": "el portafolio de TI",
+    "meaning": "das IT-Portfolio",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-6"
+  },
+  {
+    "spanish": "la gestión de portafolio",
+    "meaning": "das Portfoliomanagement",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-6"
+  },
+  {
+    "spanish": "el inventario de aplicaciones",
+    "meaning": "das Anwendungsinventar",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-6"
+  },
+  {
+    "spanish": "el catálogo de servicios",
+    "meaning": "der Servicekatalog",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-6"
+  },
+  {
+    "spanish": "el servicio de negocio",
+    "meaning": "der Geschäftsservice",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-6"
+  },
+  {
+    "spanish": "el servicio de TI",
+    "meaning": "der IT-Service",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-6"
+  },
+  {
+    "spanish": "el objeto de negocio",
+    "meaning": "das Geschäftsobjekt",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-6"
+  },
+  {
+    "spanish": "la entidad de datos",
+    "meaning": "die Datenentität",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-6"
+  },
+  {
+    "spanish": "el modelo de datos",
+    "meaning": "das Datenmodell",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-6"
+  },
+  {
+    "spanish": "el diccionario de datos",
+    "meaning": "das Datenwörterbuch",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-6"
+  },
+  {
+    "spanish": "la calidad de datos",
+    "meaning": "die Datenqualität",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-6"
+  },
+  {
+    "spanish": "la gobernanza de datos",
+    "meaning": "die Data Governance",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-6"
+  },
+  {
+    "spanish": "el propietario de datos",
+    "meaning": "der Datenverantwortliche",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-6",
+    "note": "Data Owner"
+  },
+  {
+    "spanish": "los datos maestros",
+    "meaning": "die Stammdaten",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-6"
+  },
+  {
+    "spanish": "la gestión de datos maestros",
+    "meaning": "das Master Data Management",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-6"
+  },
+  {
+    "spanish": "la integración de sistemas",
+    "meaning": "die Systemintegration",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-6"
+  },
+  {
+    "spanish": "la interfaz de sistema",
+    "meaning": "die Systemschnittstelle",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-6"
+  },
+  {
+    "spanish": "la panorama de sistemas",
+    "meaning": "die Systemlandschaft",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-6"
+  },
+  {
+    "spanish": "la panorama de aplicaciones",
+    "meaning": "die Applikationslandschaft",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-6"
+  },
+  {
+    "spanish": "el sistema heredado",
+    "meaning": "das Altsystem",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-6",
+    "note": "Legacy-System"
+  },
+  {
+    "spanish": "la modernización",
+    "meaning": "die Modernisierung",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-6"
+  },
+  {
+    "spanish": "la migración",
+    "meaning": "die Migration",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-6"
+  },
+  {
+    "spanish": "la consolidación",
+    "meaning": "die Konsolidierung",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-6"
+  },
+  {
+    "spanish": "la racionalización",
+    "meaning": "die Bereinigung / die Rationalisierung",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-6"
+  },
+  {
+    "spanish": "el marco de arquitectura TOGAF",
+    "meaning": "das TOGAF-Framework",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-7"
+  },
+  {
+    "spanish": "ArchiMate",
+    "meaning": "ArchiMate",
+    "wordClass": "Substantiv",
+    "lesson": "2-7",
+    "isProperName": true
+  },
+  {
+    "spanish": "el método de desarrollo de arquitectura",
+    "meaning": "die Architecture Development Method",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-7",
+    "note": "ADM"
+  },
+  {
+    "spanish": "el marco de trabajo Zachman",
+    "meaning": "das Zachman-Framework",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-7"
+  },
+  {
+    "spanish": "la vista de negocio",
+    "meaning": "die Geschäftssicht",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-7"
+  },
+  {
+    "spanish": "la vista de aplicación",
+    "meaning": "die Anwendungssicht",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-7"
+  },
+  {
+    "spanish": "la vista de datos",
+    "meaning": "die Datensicht",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-7"
+  },
+  {
+    "spanish": "la vista de tecnología",
+    "meaning": "die Technologiesicht",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-7"
+  },
+  {
+    "spanish": "la vista de infraestructura",
+    "meaning": "die Infrastruktursicht",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-7"
+  },
+  {
+    "spanish": "el metamodelo",
+    "meaning": "das Metamodell",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-7"
+  },
+  {
+    "spanish": "el lenguaje de modelado",
+    "meaning": "die Modellierungssprache",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-7"
+  },
+  {
+    "spanish": "el repositorio de arquitectura",
+    "meaning": "das Architekturrepository",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-7"
+  },
+  {
+    "spanish": "la base de conocimiento arquitectónico",
+    "meaning": "die Architektur-Wissensbasis",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-7"
+  },
+  {
+    "spanish": "el artefacto arquitectónico",
+    "meaning": "das Architekturartefakt",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-7"
+  },
+  {
+    "spanish": "el entregable",
+    "meaning": "der Liefergegenstand",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-7",
+    "note": "Deliverable"
+  },
+  {
+    "spanish": "el punto de control de arquitectura",
+    "meaning": "der Architektur-Checkpoint",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-7"
+  },
+  {
+    "spanish": "la revisión de arquitectura",
+    "meaning": "das Architektur-Review",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-7"
+  },
+  {
+    "spanish": "el cumplimiento arquitectónico",
+    "meaning": "die Architektur-Compliance",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-7"
+  },
+  {
+    "spanish": "la excepción arquitectónica",
+    "meaning": "die Architekturausnahme",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-7"
+  },
+  {
+    "spanish": "la solicitud de cambio",
+    "meaning": "der Änderungsantrag",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-7"
+  },
+  {
+    "spanish": "la gestión de cambios de TI",
+    "meaning": "das IT-Change-Management",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-7"
+  },
+  {
+    "spanish": "el comité de cambios",
+    "meaning": "das Change Advisory Board",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-7"
+  },
+  {
+    "spanish": "el ciclo de gobernanza de TI",
+    "meaning": "der IT-Governance-Zyklus",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-7"
+  },
+  {
+    "spanish": "la estrategia de TI",
+    "meaning": "die IT-Strategie",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-7"
+  },
+  {
+    "spanish": "la planificación estratégica",
+    "meaning": "strategische Planung",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-7"
+  },
+  {
+    "spanish": "el análisis de brechas",
+    "meaning": "die Gap-Analyse",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-7"
+  },
+  {
+    "spanish": "el análisis de impacto",
+    "meaning": "die Auswirkungsanalyse",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-7"
+  },
+  {
+    "spanish": "la gestión de la demanda",
+    "meaning": "das Demand Management",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-7"
+  },
+  {
+    "spanish": "la cartera de proyectos",
+    "meaning": "das Projektportfolio",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-7"
+  },
+  {
+    "spanish": "la oficina de gestión de proyectos",
+    "meaning": "das Project Management Office",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-7",
+    "note": "PMO"
+  },
+  {
+    "spanish": "la gestión de la configuración",
+    "meaning": "das Konfigurationsmanagement",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-8"
+  },
+  {
+    "spanish": "la base de datos de gestión de configuración",
+    "meaning": "die Configuration Management Database",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-8",
+    "note": "CMDB"
+  },
+  {
+    "spanish": "el elemento de configuración",
+    "meaning": "das Configuration Item",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-8",
+    "note": "CI"
+  },
+  {
+    "spanish": "la gestión de incidentes",
+    "meaning": "das Incident Management",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-8"
+  },
+  {
+    "spanish": "la gestión de problemas",
+    "meaning": "das Problem Management",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-8"
+  },
+  {
+    "spanish": "la gestión de niveles de servicio",
+    "meaning": "das Service Level Management",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-8"
+  },
+  {
+    "spanish": "la biblioteca de infraestructura de TI",
+    "meaning": "ITIL",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-8",
+    "isProperName": true,
+    "note": "IT Infrastructure Library"
+  },
+  {
+    "spanish": "el marco de gobernanza de TI",
+    "meaning": "das IT-Governance-Framework",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-8"
+  },
+  {
+    "spanish": "el marco COBIT",
+    "meaning": "das COBIT-Framework",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-8"
+  },
+  {
+    "spanish": "la seguridad de la información",
+    "meaning": "die Informationssicherheit",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-8"
+  },
+  {
+    "spanish": "la gestión de accesos",
+    "meaning": "das Zugriffsmanagement",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-8"
+  },
+  {
+    "spanish": "el control de acceso",
+    "meaning": "die Zugriffskontrolle",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-8"
+  },
+  {
+    "spanish": "la clasificación de datos",
+    "meaning": "die Datenklassifizierung",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-8"
+  },
+  {
+    "spanish": "la protección de datos",
+    "meaning": "der Datenschutz",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-8"
+  },
+  {
+    "spanish": "el cumplimiento",
+    "meaning": "die Compliance",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-8"
+  },
+  {
+    "spanish": "la auditoría de TI",
+    "meaning": "das IT-Audit",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-8"
+  },
+  {
+    "spanish": "el riesgo operacional",
+    "meaning": "operationelles Risiko",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-8"
+  },
+  {
+    "spanish": "la continuidad del negocio",
+    "meaning": "die Business Continuity",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-8"
+  },
+  {
+    "spanish": "el plan de continuidad",
+    "meaning": "der Notfallplan",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-8"
+  },
+  {
+    "spanish": "la recuperación ante desastres",
+    "meaning": "das Disaster Recovery",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-8"
+  },
+  {
+    "spanish": "la disponibilidad",
+    "meaning": "die Verfügbarkeit",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-8"
+  },
+  {
+    "spanish": "la confidencialidad",
+    "meaning": "die Vertraulichkeit",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-8"
+  },
+  {
+    "spanish": "la integridad",
+    "meaning": "die Integrität",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-8"
+  },
+  {
+    "spanish": "la resiliencia",
+    "meaning": "die Resilienz",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-8"
+  },
+  {
+    "spanish": "el taller de trabajo",
+    "meaning": "der Workshop",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-9"
+  },
+  {
+    "spanish": "la sesión de trabajo",
+    "meaning": "die Arbeitssitzung",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-9"
+  },
+  {
+    "spanish": "la reunión de alineación",
+    "meaning": "der Abstimmungstermin",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-9"
+  },
+  {
+    "spanish": "la acta de reunión",
+    "meaning": "das Sitzungsprotokoll",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-9"
+  },
+  {
+    "spanish": "el entregable del proyecto",
+    "meaning": "das Projektergebnis",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-9"
+  },
+  {
+    "spanish": "el hito",
+    "meaning": "der Meilenstein",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-9"
+  },
+  {
+    "spanish": "la cronograma",
+    "meaning": "der Zeitplan",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-9"
+  },
+  {
+    "spanish": "el patrocinador",
+    "meaning": "der Sponsor",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-9"
+  },
+  {
+    "spanish": "el equipo multidisciplinario",
+    "meaning": "interdisziplinäres Team",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-9"
+  },
+  {
+    "spanish": "el facilitador",
+    "meaning": "der Moderator",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-9"
+  },
+  {
+    "spanish": "la retroalimentación",
+    "meaning": "das Feedback",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-9"
+  },
+  {
+    "spanish": "la lección aprendida",
+    "meaning": "die Lessons Learned",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-9"
+  },
+  {
+    "spanish": "la resistencia al cambio",
+    "meaning": "der Widerstand gegen Veränderung",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-9"
+  },
+  {
+    "spanish": "la adopción",
+    "meaning": "die Akzeptanz",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-9"
+  },
+  {
+    "spanish": "la capacitación",
+    "meaning": "die Schulung",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-9"
+  },
+  {
+    "spanish": "la gestión del conocimiento",
+    "meaning": "das Wissensmanagement",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-9"
+  },
+  {
+    "spanish": "la curva de aprendizaje",
+    "meaning": "die Lernkurve",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-9"
+  },
+  {
+    "spanish": "el tiempo de inactividad",
+    "meaning": "die Ausfallzeit",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-10"
+  },
+  {
+    "spanish": "el tiempo medio de reparación",
+    "meaning": "mittlere Reparaturzeit",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-10",
+    "note": "MTTR"
+  },
+  {
+    "spanish": "el tiempo medio entre fallos",
+    "meaning": "mittlere Zeit zwischen Ausfällen",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-10",
+    "note": "MTBF"
+  },
+  {
+    "spanish": "la productividad",
+    "meaning": "die Produktivität",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-10"
+  },
+  {
+    "spanish": "el costo por transacción",
+    "meaning": "die Kosten pro Transaktion",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-10"
+  },
+  {
+    "spanish": "el costo del proceso",
+    "meaning": "die Prozesskosten",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-10"
+  },
+  {
+    "spanish": "el ahorro de costos",
+    "meaning": "die Kosteneinsparung",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-10"
+  },
+  {
+    "spanish": "el retorno de inversión",
+    "meaning": "die Kapitalrendite",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-10",
+    "note": "ROI"
+  },
+  {
+    "spanish": "el análisis de costo-beneficio",
+    "meaning": "die Kosten-Nutzen-Analyse",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-10"
+  },
+  {
+    "spanish": "el presupuesto",
+    "meaning": "das Budget",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-10"
+  },
+  {
+    "spanish": "la asignación de recursos",
+    "meaning": "die Ressourcenzuteilung",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-10"
+  },
+  {
+    "spanish": "la planificación de capacidad",
+    "meaning": "die Kapazitätsplanung",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-10"
+  },
+  {
+    "spanish": "la previsión de demanda",
+    "meaning": "die Bedarfsprognose",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-10"
+  },
+  {
+    "spanish": "la carga de trabajo",
+    "meaning": "die Arbeitslast",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-10"
+  },
+  {
+    "spanish": "la distribución de tareas",
+    "meaning": "die Aufgabenverteilung",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-10"
+  },
+  {
+    "spanish": "la priorización",
+    "meaning": "die Priorisierung",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-10"
+  },
+  {
+    "spanish": "el escalamiento",
+    "meaning": "die Eskalation",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-10"
+  },
+  {
+    "spanish": "el procedimiento de escalamiento",
+    "meaning": "das Eskalationsverfahren",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-10"
+  },
+  {
+    "spanish": "el nivel de madurez",
+    "meaning": "die Reifegradstufe",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-10"
+  },
+  {
+    "spanish": "la evaluación de madurez",
+    "meaning": "die Reifegradbewertung",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-10"
+  },
+  {
+    "spanish": "la gestión de proveedores",
+    "meaning": "das Lieferantenmanagement",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-11"
+  },
+  {
+    "spanish": "el contrato de servicio",
+    "meaning": "der Dienstleistungsvertrag",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-11"
+  },
+  {
+    "spanish": "la externalización",
+    "meaning": "das Outsourcing",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-11"
+  },
+  {
+    "spanish": "la subcontratación",
+    "meaning": "die Fremdvergabe",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-11"
+  },
+  {
+    "spanish": "el proveedor de servicios",
+    "meaning": "der Dienstleister",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-11"
+  },
+  {
+    "spanish": "el acuerdo de nivel operativo",
+    "meaning": "das Operational Level Agreement",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-11",
+    "note": "OLA"
+  },
+  {
+    "spanish": "la gestión de la cartera de TI",
+    "meaning": "das IT-Portfoliomanagement",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-11"
+  },
+  {
+    "spanish": "la evaluación de proveedores",
+    "meaning": "die Lieferantenbewertung",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-11"
+  },
+  {
+    "spanish": "la diligencia debida",
+    "meaning": "die Due Diligence",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-11"
+  },
+  {
+    "spanish": "el caso de uso de negocio",
+    "meaning": "der Geschäftsanwendungsfall",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-11"
+  },
+  {
+    "spanish": "el modelo operativo",
+    "meaning": "das Operating Model",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-11"
+  },
+  {
+    "spanish": "el modelo operativo objetivo",
+    "meaning": "das Target Operating Model",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-11"
+  },
+  {
+    "spanish": "la estructura de gobernanza",
+    "meaning": "die Governance-Struktur",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-11"
+  },
+  {
+    "spanish": "el consejo de arquitectura",
+    "meaning": "das Architecture Board",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-11"
+  },
+  {
+    "spanish": "la función de arquitectura empresarial",
+    "meaning": "die Enterprise-Architecture-Funktion",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-11"
+  },
+  {
+    "spanish": "la oficina de arquitectura empresarial",
+    "meaning": "das Enterprise Architecture Office",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-11"
+  },
+  {
+    "spanish": "la estrategia empresarial",
+    "meaning": "die Unternehmensstrategie",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-11"
+  },
+  {
+    "spanish": "el modelo de negocio",
+    "meaning": "das Geschäftsmodell",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-11"
+  },
+  {
+    "spanish": "la propuesta de valor",
+    "meaning": "das Wertversprechen",
+    "wordClass": "Substantiv",
+    "gender": "f",
+    "lesson": "2-11"
+  },
+  {
+    "spanish": "el segmento de mercado",
+    "meaning": "das Marktsegment",
+    "wordClass": "Substantiv",
+    "gender": "m",
+    "lesson": "2-11"
+  },
+  {
+    "spanish": "optimizar",
+    "meaning": "optimieren",
+    "wordClass": "Verb",
+    "lesson": "2-12"
+  },
+  {
+    "spanish": "automatizar",
+    "meaning": "automatisieren",
+    "wordClass": "Verb",
+    "lesson": "2-12"
+  },
+  {
+    "spanish": "estandarizar",
+    "meaning": "standardisieren",
+    "wordClass": "Verb",
+    "lesson": "2-12"
+  },
+  {
+    "spanish": "documentar",
+    "meaning": "dokumentieren",
+    "wordClass": "Verb",
+    "lesson": "2-12"
+  },
+  {
+    "spanish": "modelar",
+    "meaning": "modellieren",
+    "wordClass": "Verb",
+    "lesson": "2-12"
+  },
+  {
+    "spanish": "analizar",
+    "meaning": "analysieren",
+    "wordClass": "Verb",
+    "lesson": "2-12"
+  },
+  {
+    "spanish": "ejecutar",
+    "meaning": "ausführen",
+    "wordClass": "Verb",
+    "lesson": "2-12"
+  },
+  {
+    "spanish": "monitorear",
+    "meaning": "überwachen",
+    "wordClass": "Verb",
+    "lesson": "2-12",
+    "note": "auch: monitorizar"
+  },
+  {
+    "spanish": "medir",
+    "meaning": "messen",
+    "wordClass": "Verb",
+    "lesson": "2-12"
+  },
+  {
+    "spanish": "evaluar",
+    "meaning": "bewerten",
+    "wordClass": "Verb",
+    "lesson": "2-12"
+  },
+  {
+    "spanish": "implementar",
+    "meaning": "implementieren",
+    "wordClass": "Verb",
+    "lesson": "2-12"
+  },
+  {
+    "spanish": "integrar",
+    "meaning": "integrieren",
+    "wordClass": "Verb",
+    "lesson": "2-12"
+  },
+  {
+    "spanish": "rediseñar",
+    "meaning": "neu gestalten",
+    "wordClass": "Verb",
+    "lesson": "2-12"
+  },
+  {
+    "spanish": "mapear",
+    "meaning": "abbilden / mappen",
+    "wordClass": "Verb",
+    "lesson": "2-12"
+  },
+  {
+    "spanish": "alinear",
+    "meaning": "abstimmen / ausrichten",
+    "wordClass": "Verb",
+    "lesson": "2-12"
+  },
+  {
+    "spanish": "gobernar",
+    "meaning": "steuern / regeln",
+    "wordClass": "Verb",
+    "lesson": "2-12"
+  },
+  {
+    "spanish": "auditar",
+    "meaning": "prüfen / auditieren",
+    "wordClass": "Verb",
+    "lesson": "2-12"
+  },
+  {
+    "spanish": "validar",
+    "meaning": "validieren",
+    "wordClass": "Verb",
+    "lesson": "2-12"
+  },
+  {
+    "spanish": "priorizar",
+    "meaning": "priorisieren",
+    "wordClass": "Verb",
+    "lesson": "2-12"
+  },
+  {
+    "spanish": "delegar",
+    "meaning": "delegieren",
+    "wordClass": "Verb",
+    "lesson": "2-12"
+  },
+  {
+    "spanish": "escalar un problema",
+    "meaning": "ein Problem eskalieren",
+    "wordClass": "Verb",
+    "lesson": "2-12"
+  },
+  {
+    "spanish": "consolidar",
+    "meaning": "konsolidieren",
+    "wordClass": "Verb",
+    "lesson": "2-12"
+  },
+  {
+    "spanish": "migrar",
+    "meaning": "migrieren",
+    "wordClass": "Verb",
+    "lesson": "2-12"
+  },
+  {
+    "spanish": "modernizar",
+    "meaning": "modernisieren",
+    "wordClass": "Verb",
+    "lesson": "2-12"
+  },
+  {
+    "spanish": "estandarizado",
+    "meaning": "standardisiert",
+    "wordClass": "Adjektiv",
+    "lesson": "2-12"
+  },
+  {
+    "spanish": "eficiente",
+    "meaning": "effizient",
+    "wordClass": "Adjektiv",
+    "lesson": "2-12"
+  },
+  {
+    "spanish": "eficaz",
+    "meaning": "wirksam",
+    "wordClass": "Adjektiv",
+    "lesson": "2-12"
+  },
+  {
+    "spanish": "escalable",
+    "meaning": "skalierbar",
+    "wordClass": "Adjektiv",
+    "lesson": "2-12"
+  },
+  {
+    "spanish": "redundante",
+    "meaning": "redundant",
+    "wordClass": "Adjektiv",
+    "lesson": "2-12"
+  },
+  {
+    "spanish": "obsoleto",
+    "meaning": "veraltet",
+    "wordClass": "Adjektiv",
+    "lesson": "2-12"
+  },
+  {
+    "spanish": "crítico",
+    "meaning": "kritisch",
+    "wordClass": "Adjektiv",
+    "lesson": "2-12"
+  },
+  {
+    "spanish": "transversal",
+    "meaning": "bereichsübergreifend",
+    "wordClass": "Adjektiv",
+    "lesson": "2-12"
+  },
+  {
+    "spanish": "iterativo",
+    "meaning": "iterativ",
+    "wordClass": "Adjektiv",
+    "lesson": "2-12"
+  },
+  {
+    "spanish": "ágil",
+    "meaning": "agil",
+    "wordClass": "Adjektiv",
+    "lesson": "2-12"
+  }
+]
