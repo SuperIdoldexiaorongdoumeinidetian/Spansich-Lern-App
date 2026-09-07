@@ -24,6 +24,11 @@ const DEFAULT_STATE = {
     decks: [], // ausgewählte Lektionen (leer, solange es noch keine Vokabeln gibt)
     autoSpeak: false, // Aussprache beim Aufdecken automatisch abspielen
     onlyHighlighted: false, // nur prüfungsrelevante Vokabeln
+    // Konjugationstrainer (Tab "Verben")
+    conjTenses: ["presente"], // geübte Zeiten (Schlüssel aus TENSES in conjugation.js)
+    conjVerbs: "alle", // alle | regular | irregular
+    conjLesson: "alle", // Lektionsfilter, sobald verbs.json Lektionen enthält
+    includeVosotros: false, // vosotros mit abfragen (in Mexiko unüblich → aus)
   },
 };
 
@@ -95,8 +100,13 @@ export function mergeStates(a, b) {
   }
 
   // --- settings + updatedAt: jüngerer Gesamtstand gewinnt ---
+  // Über die Defaults gelegt, damit ein Stand von einem älteren App-Stand
+  // (ohne neuere Einstellungs-Felder) keine undefined-Werte einschleppt.
   const aNewer = (a.updatedAt ?? 0) >= (b.updatedAt ?? 0);
-  const settings = aNewer ? a.settings : b.settings;
+  const settings = {
+    ...DEFAULT_STATE.settings,
+    ...((aNewer ? a.settings : b.settings) ?? {}),
+  };
   const updatedAt = Math.max(a.updatedAt ?? 0, b.updatedAt ?? 0);
 
   return { srs, log, settings, updatedAt };

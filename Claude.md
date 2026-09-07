@@ -10,9 +10,11 @@ Akzent-Prüfung.
 Der Nutzer ist kein erfahrener Entwickler — bei wichtigen Entscheidungen kurz das
 **Warum** erklären. UI und Inhalte sind auf **Deutsch**.
 
-**Stand:** `vocab.json` und `grammar.json` sind noch leer (Listen folgen).
-Die App muss mit leeren Listen sauber laufen (Hinweise statt Fehler) und
-darf beim Befüllen keine Code-Änderung brauchen.
+**Stand:** `vocab.json` und `grammar.json` enthalten **Beispieldaten zum
+Testen** (52 Vokabeln in den Lektionen 1-1, 1-2, 1-3, 2-1 und „Mexiko";
+5 Grammatikthemen). Sie decken alle Felder ab und werden später durch die
+echten Listen ersetzt. Die App muss auch mit leeren Listen sauber laufen
+(Hinweise statt Fehler) und darf beim Befüllen keine Code-Änderung brauchen.
 
 ## Tech-Stack
 
@@ -29,8 +31,9 @@ darf beim Befüllen keine Code-Änderung brauchen.
 ```
 src/
   data/
-    vocab.json      ← Vokabeln (noch leer; Schema siehe unten)
-    grammar.json    ← Grammatikthemen (noch leer; Schema siehe unten)
+    vocab.json      ← Vokabeln (Beispieldaten; Schema siehe unten)
+    grammar.json    ← Grammatikthemen (Beispieldaten; Schema siehe unten)
+    verbs.json      ← Verben für den Konjugationstrainer (ca. 80 Einträge; Schema in der README)
   lib/
     deck.js         ← Karten-/Deck-Aufbau aus den Daten, Session-Logik, Quiz-Optionen
     srs.js          ← Spaced-Repetition-Algorithmus (Anki-angelehnt, KEIN SM-2) — unverändert
@@ -39,13 +42,16 @@ src/
     supabase.js     ← Supabase-Client (aus VITE_-Env-Vars)
     spanish.js      ← Vergleich spanischer Eingaben (Akzente, Artikel, Alternativen)
     speech.js       ← Aussprache über Web Speech API
+    conjugation.js  ← Konjugations-Engine: berechnet alle Formen aus Infinitiv + Ausnahmen (ohne Datenimport, testbar)
+    verbs.js        ← aufbereitete Verbliste (VERBS, VERB_LESSONS) aus verbs.json
   components/
     Dashboard.jsx   ← Statistik/Übersicht        Flashcards.jsx ← SRS-Lernen
     Quiz.jsx        ← Quiz-Modi                   VocabList.jsx  ← Nachschlage-Liste
     Grammar.jsx     ← Grammatikthemen + Übungen   DeckPicker.jsx ← Deck-Auswahl
+    Conjugation.jsx ← Konjugationstrainer + Verbtabellen
     CardDetails.jsx ← Wortart/Genus/Beispiel      SyncBar.jsx    ← Login/Sync-Status
     SpeakButton.jsx, ExamBadge.jsx
-  App.jsx           ← Navigation (5 Tabs), dunkler Modus, Fortschritt-Reset
+  App.jsx           ← Navigation (6 Tabs), dunkler Modus, Fortschritt-Reset
 ```
 
 ## Datenmodell
@@ -68,6 +74,12 @@ Vokabel-Einträge (`vocab.json`), Pflicht: `spanish`, `meaning`, `lesson`:
 Grammatik-Einträge (`grammar.json`), Pflicht: `id`, `title`; optional
 `lesson`, `explanation` (Absätze durch Leerzeile), `table` ({headers, rows}),
 `examples` ([{es, de}]), `exercises` ([{prompt, answer, hint}]).
+
+Verb-Einträge (`verbs.json`), Pflicht: `infinitive`, `meaning`; optional
+`lesson`, `stemChange` (e>ie/o>ue/e>i/u>ue), `yo`, `preteriteStem`,
+`futureStem`, `participle`, `gerund`, `forms` (feste Formen je Zeit als
+6er-Array oder Objekt mit Personen-Schlüsseln yo/tu/el/nosotros/vosotros/ellos),
+`note`, `mexico`. Reflexive Verben enden auf `se`; alle Angaben ohne Pronomen.
 
 Warum werden `LESSONS` aus den Daten abgeleitet statt fest im Code zu stehen
 (anders als in der Chinesisch-App)? Weil die Listen erst später kommen und
@@ -94,6 +106,17 @@ dann neue Karten bis zum Tageslimit (Standard 10/Tag).
 Artikel (el/la/los/las/un/una) dürfen fehlen; Alternativen (`/`) zählen alle.
 `accents` = nur Akzente/ñ/ü weichen ab → Hinweis statt "falsch".
 
+**Konjugation** (`conjugation.js`): Regelmäßige Endungen je Gruppe (-ar/-er/-ir)
+für sieben Zeiten (presente, preterito, imperfecto, perfecto, futuro,
+condicional, subjuntivo). Automatisch: Stammwechsel inkl. „schwacher" -ir-Form
+(durmió/durmamos), Schreibregeln (busqué, conozco, sigo, construyo, leyó),
+starke Pretéritos, Subjuntivo aus der yo-Form, Reflexivpronomen.
+`irregularMask` vergleicht mit der „naiven" Bildung (stur Stamm + Endung) →
+Markierung in der Tabelle und Flag `irregular`. Personen-Index 0–5 =
+yo/tú/él/nosotros/vosotros/ellos; `vosotros` per Einstellung `includeVosotros`
+(Standard aus, mexikanisches Spanisch). Der Trainer ist reines Üben wie das
+Quiz (kein SRS); Einstellungen `conjTenses`, `conjVerbs`, `conjLesson`.
+
 **Persistenz & Merge** (`store.js`): localStorage-Schlüssel
 `spanisch-lern-app-v1` (eigener Schlüssel, damit Chinesisch- und Spanisch-App
 im selben Browser nicht kollidieren). `mergeStates` führt lokal + Cloud
@@ -108,7 +131,7 @@ die App rein lokal weiter. **Eigene Tabelle `progress_spanisch`** (Konstante
 Chinesisch-App (Tabelle `progress`) nicht zu überschriebenen Ständen führt.
 SQL für Tabelle + Row Level Security steht in der README.
 
-## Die fünf Bereiche (Tabs in `App.jsx`)
+## Die sechs Bereiche (Tabs in `App.jsx`)
 
 | Tab | Inhalt |
 |---|---|
@@ -117,6 +140,7 @@ SQL für Tabelle + Row Level Security steht in der README.
 | **Quiz** | Multiple Choice (beide Richtungen, Distraktoren bevorzugt aus derselben Lektion) + „Deutsch → Spanisch schreiben" (Texteingabe mit Akzent-Prüfung). Ändert den Lernstand nicht |
 | **Vokabeln** | Suche (akzent-unabhängig), Lektionsfilter, Aussprache, Lernstatus ✓, aufklappbare Details |
 | **Grammatik** | Themen aus `grammar.json`: Erklärung, Tabelle, Beispiele (vorlesbar), Lückentext-Übungen |
+| **Verben** | Konjugationstrainer (Verb + Person + Zeit → Form tippen, Akzent-Prüfung, danach Tabelle der Zeit) + Nachschlage-Tabellen mit markierten unregelmäßigen Formen |
 
 ## Entwicklung
 
@@ -136,5 +160,5 @@ anlegen (ohne läuft die App lokal).
   Kommentare erklären das „Warum") — der Nutzer will ihn nachvollziehen und erweitern.
 - Nach größeren Änderungen kurz erklären, was gebaut wurde und wie man es testet.
 - Bei Unklarheit nachfragen statt raten.
-- Neue Daten: einfach an `vocab.json`/`grammar.json` anhängen; Lektionen und
-  Gruppen ergeben sich automatisch.
+- Neue Daten: einfach an `vocab.json`/`grammar.json`/`verbs.json` anhängen;
+  Lektionen, Gruppen und Verbformen ergeben sich automatisch.

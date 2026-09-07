@@ -1,0 +1,241 @@
+[
+  {
+    "infinitive": "ser",
+    "meaning": "sein (Eigenschaft, Herkunft, Beruf)",
+    "forms": {
+      "presente": ["soy", "eres", "es", "somos", "sois", "son"],
+      "preterito": ["fui", "fuiste", "fue", "fuimos", "fuisteis", "fueron"],
+      "imperfecto": ["era", "eras", "era", "éramos", "erais", "eran"],
+      "subjuntivo": ["sea", "seas", "sea", "seamos", "seáis", "sean"]
+    }
+  },
+  {
+    "infinitive": "estar",
+    "meaning": "sein (Ort, Zustand, Befinden)",
+    "preteriteStem": "estuv",
+    "forms": {
+      "presente": ["estoy", "estás", "está", "estamos", "estáis", "están"],
+      "subjuntivo": ["esté", "estés", "esté", "estemos", "estéis", "estén"]
+    }
+  },
+  {
+    "infinitive": "tener",
+    "meaning": "haben",
+    "stemChange": "e>ie",
+    "yo": "tengo",
+    "preteriteStem": "tuv",
+    "futureStem": "tendr"
+  },
+  {
+    "infinitive": "haber",
+    "meaning": "haben (Hilfsverb: he, has, …)",
+    "preteriteStem": "hub",
+    "futureStem": "habr",
+    "forms": {
+      "presente": ["he", "has", "ha", "hemos", "habéis", "han"],
+      "subjuntivo": ["haya", "hayas", "haya", "hayamos", "hayáis", "hayan"]
+    },
+    "note": "Unpersönlich: hay (es gibt)."
+  },
+  {
+    "infinitive": "hacer",
+    "meaning": "machen, tun",
+    "yo": "hago",
+    "preteriteStem": "hic",
+    "futureStem": "har",
+    "participle": "hecho",
+    "forms": { "preterito": { "el": "hizo" } }
+  },
+  {
+    "infinitive": "ir",
+    "meaning": "gehen, fahren",
+    "gerund": "yendo",
+    "forms": {
+      "presente": ["voy", "vas", "va", "vamos", "vais", "van"],
+      "preterito": ["fui", "fuiste", "fue", "fuimos", "fuisteis", "fueron"],
+      "imperfecto": ["iba", "ibas", "iba", "íbamos", "ibais", "iban"],
+      "subjuntivo": ["vaya", "vayas", "vaya", "vayamos", "vayáis", "vayan"]
+    },
+    "note": "ir a + Infinitiv = nahe Zukunft (voy a comer)."
+  },
+  {
+    "infinitive": "poder",
+    "meaning": "können, dürfen",
+    "stemChange": "o>ue",
+    "preteriteStem": "pud",
+    "futureStem": "podr",
+    "gerund": "pudiendo"
+  },
+  {
+    "infinitive": "querer",
+    "meaning": "wollen, mögen, lieben",
+    "stemChange": "e>ie",
+    "preteriteStem": "quis",
+    "futureStem": "querr"
+  },
+  {
+    "infinitive": "decir",
+    "meaning": "sagen",
+    "stemChange": "e>i",
+    "yo": "digo",
+    "preteriteStem": "dij",
+    "futureStem": "dir",
+    "participle": "dicho"
+  },
+  {
+    "infinitive": "venir",
+    "meaning": "kommen",
+    "stemChange": "e>ie",
+    "yo": "vengo",
+    "preteriteStem": "vin",
+    "futureStem": "vendr"
+  },
+  {
+    "infinitive": "saber",
+    "meaning": "wissen, können (gelernt)",
+    "yo": "sé",
+    "preteriteStem": "sup",
+    "futureStem": "sabr",
+    "forms": {
+      "subjuntivo": ["sepa", "sepas", "sepa", "sepamos", "sepáis", "sepan"]
+    }
+  },
+  {
+    "infinitive": "poner",
+    "meaning": "legen, stellen, setzen",
+    "yo": "pongo",
+    "preteriteStem": "pus",
+    "futureStem": "pondr",
+    "participle": "puesto"
+  },
+  {
+    "infinitive": "salir",
+    "meaning": "hinausgehen, ausgehen, abfahren",
+    "yo": "salgo",
+    "futureStem": "saldr"
+  },
+  {
+    "infinitive": "ver",
+    "meaning": "sehen",
+    "yo": "veo",
+    "participle": "visto",
+    "forms": {
+      "presente": { "vosotros": "veis" },
+      "preterito": ["vi", "viste", "vio", "vimos", "visteis", "vieron"],
+      "imperfecto": ["veía", "veías", "veía", "veíamos", "veíais", "veían"]
+    }
+  },
+  {
+    "infinitive": "dar",
+    "meaning": "geben",
+    "yo": "doy",
+    "forms": {
+      "presente": { "vosotros": "dais" },
+      "preterito": ["di", "diste", "dio", "dimos", "disteis", "dieron"],
+      "subjuntivo": ["dé", "des", "dé", "demos", "deis", "den"]
+    }
+  },
+  { "infinitive": "conocer", "meaning": "kennen, kennenlernen" },
+  {
+    "infinitive": "traer",
+    "meaning": "bringen, mitbringen",
+    "yo": "traigo",
+    "preteriteStem": "traj"
+  },
+  {
+    "infinitive": "oír",
+    "meaning": "hören",
+    "yo": "oigo",
+    "forms": {
+      "presente": ["oigo", "oyes", "oye", "oímos", "oís", "oyen"]
+    }
+  },
+  {
+    "infinitive": "conducir",
+    "meaning": "fahren, lenken (Spanien)",
+    "preteriteStem": "conduj"
+  },
+  {
+    "infinitive": "manejar",
+    "meaning": "Auto fahren",
+    "mexico": true,
+    "note": "In Mexiko üblich statt conducir."
+  },
+  { "infinitive": "hablar", "meaning": "sprechen, reden" },
+  { "infinitive": "comer", "meaning": "essen" },
+  { "infinitive": "vivir", "meaning": "leben, wohnen" },
+  { "infinitive": "trabajar", "meaning": "arbeiten" },
+  { "infinitive": "estudiar", "meaning": "lernen, studieren" },
+  { "infinitive": "aprender", "meaning": "lernen" },
+  { "infinitive": "escribir", "meaning": "schreiben", "participle": "escrito" },
+  { "infinitive": "leer", "meaning": "lesen" },
+  { "infinitive": "creer", "meaning": "glauben" },
+  { "infinitive": "beber", "meaning": "trinken" },
+  { "infinitive": "tomar", "meaning": "nehmen, trinken" },
+  { "infinitive": "comprar", "meaning": "kaufen" },
+  { "infinitive": "pagar", "meaning": "bezahlen" },
+  { "infinitive": "necesitar", "meaning": "brauchen" },
+  { "infinitive": "llegar", "meaning": "ankommen" },
+  { "infinitive": "buscar", "meaning": "suchen" },
+  { "infinitive": "sacar", "meaning": "herausnehmen, holen" },
+  { "infinitive": "explicar", "meaning": "erklären" },
+  {
+    "infinitive": "platicar",
+    "meaning": "plaudern, sich unterhalten",
+    "mexico": true
+  },
+  { "infinitive": "empezar", "meaning": "anfangen", "stemChange": "e>ie" },
+  { "infinitive": "pensar", "meaning": "denken", "stemChange": "e>ie" },
+  { "infinitive": "entender", "meaning": "verstehen", "stemChange": "e>ie" },
+  { "infinitive": "cerrar", "meaning": "schließen", "stemChange": "e>ie" },
+  { "infinitive": "perder", "meaning": "verlieren, verpassen", "stemChange": "e>ie" },
+  { "infinitive": "preferir", "meaning": "vorziehen, lieber mögen", "stemChange": "e>ie" },
+  { "infinitive": "sentir", "meaning": "fühlen, bedauern", "stemChange": "e>ie" },
+  {
+    "infinitive": "volver",
+    "meaning": "zurückkommen, zurückkehren",
+    "stemChange": "o>ue",
+    "participle": "vuelto"
+  },
+  { "infinitive": "dormir", "meaning": "schlafen", "stemChange": "o>ue" },
+  { "infinitive": "morir", "meaning": "sterben", "stemChange": "o>ue", "participle": "muerto" },
+  { "infinitive": "recordar", "meaning": "sich erinnern", "stemChange": "o>ue" },
+  { "infinitive": "encontrar", "meaning": "finden, treffen", "stemChange": "o>ue" },
+  { "infinitive": "contar", "meaning": "erzählen, zählen", "stemChange": "o>ue" },
+  { "infinitive": "almorzar", "meaning": "zu Mittag essen", "stemChange": "o>ue" },
+  { "infinitive": "mover", "meaning": "bewegen", "stemChange": "o>ue" },
+  { "infinitive": "jugar", "meaning": "spielen", "stemChange": "u>ue" },
+  { "infinitive": "pedir", "meaning": "bitten, bestellen", "stemChange": "e>i" },
+  { "infinitive": "servir", "meaning": "dienen, servieren", "stemChange": "e>i" },
+  { "infinitive": "repetir", "meaning": "wiederholen", "stemChange": "e>i" },
+  { "infinitive": "seguir", "meaning": "folgen, weitermachen", "stemChange": "e>i" },
+  { "infinitive": "elegir", "meaning": "wählen, auswählen", "stemChange": "e>i" },
+  { "infinitive": "construir", "meaning": "bauen" },
+  { "infinitive": "abrir", "meaning": "öffnen", "participle": "abierto" },
+  { "infinitive": "romper", "meaning": "kaputt machen, zerbrechen", "participle": "roto" },
+  { "infinitive": "andar", "meaning": "gehen, laufen", "preteriteStem": "anduv" },
+  { "infinitive": "traducir", "meaning": "übersetzen", "preteriteStem": "traduj" },
+  { "infinitive": "escuchar", "meaning": "zuhören, hören" },
+  { "infinitive": "mirar", "meaning": "anschauen" },
+  { "infinitive": "caminar", "meaning": "gehen, laufen, spazieren" },
+  { "infinitive": "viajar", "meaning": "reisen" },
+  { "infinitive": "cocinar", "meaning": "kochen" },
+  { "infinitive": "ayudar", "meaning": "helfen" },
+  { "infinitive": "usar", "meaning": "benutzen" },
+  { "infinitive": "esperar", "meaning": "warten, hoffen" },
+  { "infinitive": "dejar", "meaning": "lassen, verlassen" },
+  { "infinitive": "llevar", "meaning": "tragen, mitnehmen, bringen" },
+  { "infinitive": "ganar", "meaning": "gewinnen, verdienen" },
+  { "infinitive": "deber", "meaning": "müssen, sollen" },
+  {
+    "infinitive": "gustar",
+    "meaning": "gefallen",
+    "note": "Meist in der 3. Person: me gusta / me gustan."
+  },
+  { "infinitive": "levantarse", "meaning": "aufstehen" },
+  { "infinitive": "llamarse", "meaning": "heißen" },
+  { "infinitive": "acostarse", "meaning": "ins Bett gehen", "stemChange": "o>ue" },
+  { "infinitive": "sentarse", "meaning": "sich setzen", "stemChange": "e>ie" },
+  { "infinitive": "despertarse", "meaning": "aufwachen", "stemChange": "e>ie" },
+  { "infinitive": "vestirse", "meaning": "sich anziehen", "stemChange": "e>i" }
+]
