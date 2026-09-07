@@ -1,6 +1,7 @@
 // Flashcard-Lernen mit Spaced Repetition.
 // Ablauf: Setup (Decks/Richtungen wählen) → Session (erst fällige
-// Wiederholungen, dann neue Karten) → Zusammenfassung.
+// Wiederholungen, dann neue Karten in zufälliger Reihenfolge) →
+// Zusammenfassung.
 //
 // Session-Warteschlange (positionsbasiert): Die Queue ist eine geordnete
 // Liste, die vorderste Karte (Index 0) ist die aktuelle. "Gut"/"Einfach"
@@ -83,7 +84,9 @@ export default function Flashcards({ state, setState }) {
     setState((s) => ({ ...s, settings: { ...s.settings, ...patch } }));
 
   const start = () => {
-    // Reihenfolge: erst fällige Wiederholungen, dann neue Karten.
+    // Reihenfolge: erst fällige Wiederholungen (bereits gelernte Wörter haben
+    // Vorrang, älteste Fälligkeit zuerst), danach die neuen Karten – die
+    // kommen aus buildSession() bereits gemischt, nicht in JSON-Reihenfolge.
     const items = [...session.due, ...session.fresh].map((it) => ({
       card: it.card,
       dir: it.dir,

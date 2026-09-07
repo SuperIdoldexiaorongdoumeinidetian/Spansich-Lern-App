@@ -8,6 +8,7 @@
 import vocab from "../data/vocab.json";
 import grammar from "../data/grammar.json";
 import lessons from "../data/lessons.json";
+import { todayStr } from "./srs";
 
 // Abfragerichtungen: sm = Spanisch → Bedeutung, ms = Bedeutung → Spanisch.
 export const DIRECTIONS = {
@@ -89,9 +90,44 @@ export function buildPool(decks, includeProperNames, onlyHighlighted = false) {
 // Schlüssel für den SRS-Zustand: Karte + Abfragerichtung.
 export const srsKey = (card, dir) => `${card.id}|${dir}`;
 
+// --- Zufallsreihenfolge für neue Karten -----------------------------------
+// Neue Vokabeln sollen nicht in JSON-Reihenfolge abgefragt werden, sondern
+// gemischt. Statt echtem Zufall (Math.random) bekommt jede Karte einen
+// berechneten Sortierwert aus Seed + Kartenschlüssel. Das hat zwei Vorteile:
+//   * Die Reihenfolge bleibt innerhalb eines Tages stabil – buildSession()
+//     läuft bei jeder Bewertung erneut, mit Math.random() würden die Karten
+//     also mitten in der Sitzung neu gewürfelt und die Tagesauswahl (siehe
+//     newLimit) ständig wechseln.
+//   * Der Wert hängt nur an der Karte selbst, nicht an der Listenlänge:
+//     bereits gelernte Karten fallen aus der Liste, die übrigen behalten
+//     trotzdem ihre Position.
+// Mit jedem neuen Tag ändert sich der Seed und damit die Mischung.
+
+// 32-Bit-Hash (FNV-1a) – schnell und ohne Abhängigkeiten.
+function hash32(str) {
+  let h = 0x811c9dc5;
+  for (let i = 0; i < str.length; i++) {
+    h ^= str.charCodeAt(i);
+    h = Math.imul(h, 0x01000193);
+  }
+  return h >>> 0;
+}
+
+// Sortierwert einer neuen Karte: gleiche Karte + gleicher Seed → gleicher Wert.
+const shuffleRank = (card, dir, seed) => hash32(`${seed}|${srsKey(card, dir)}`);
+
 // Baut die heutige Lern-Session: erst fällige Wiederholungen, dann neue
-// Karten (begrenzt durch das Tageslimit).
-export function buildSession(pool, directions, srs, newLimit, now = Date.now()) {
+// Karten in zufälliger Reihenfolge (begrenzt durch das Tageslimit).
+// `seed` steuert die Mischung und ist injizierbar (für Tests); Default ist
+// das heutige Datum, sodass jeder Tag eine andere Reihenfolge ergibt.
+export function buildSession(
+  pool,
+  directions,
+  srs,
+  newLimit,
+  now = Date.now(),
+  seed = todayStr()
+) {
   const due = [];
   const fresh = [];
   for (const card of pool) {
@@ -100,12 +136,16 @@ export function buildSession(pool, directions, srs, newLimit, now = Date.now()) 
       if (st && st.dueDate != null) {
         if (st.dueDate <= now) due.push({ card, dir, state: st });
       } else {
-        fresh.push({ card, dir, state: null });
+        fresh.push({ card, dir, state: null, rank: shuffleRank(card, dir, seed) });
       }
     }
   }
-  // Fällige nach Fälligkeit (älteste zuerst), neue in Datenreihenfolge.
+  // Fällige nach Fälligkeit (älteste zuerst) – bereits gelernte Wörter
+  // behalten ihren Vorrang und ihre Reihenfolge.
   due.sort((a, b) => a.state.dueDate - b.state.dueDate);
+  // Neue Karten gemischt: erst mischen, dann auf das Tageslimit kürzen, damit
+  // nicht immer die vordersten Vokabeln der Liste drankommen.
+  fresh.sort((a, b) => a.rank - b.rank);
   return { due, fresh: fresh.slice(0, Math.max(0, newLimit)) };
 }
 

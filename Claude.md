@@ -107,7 +107,13 @@ Gut ×2,5, Einfach ×3,5; Nochmal und Schwer setzen das Intervall auf 0 zurück
 Session laufen über die Position in der Queue (Flashcards.jsx, GAP-Konstanten).
 
 **Session-Aufbau** (`buildSession`): erst fällige Wiederholungen (älteste zuerst),
-dann neue Karten bis zum Tageslimit (Standard 10/Tag).
+dann neue Karten bis zum Tageslimit (Standard 10/Tag). Bereits gelernte Wörter
+behalten also ihren Vorrang; die neuen Karten werden dagegen gemischt und nicht
+in der Reihenfolge der `vocab.json` abgefragt. Die Mischung entsteht über einen
+Sortierwert aus Tages-Seed + Kartenschlüssel (`shuffleRank`) statt über
+`Math.random()`: so bleibt die Reihenfolge innerhalb eines Tages stabil (auch
+wenn `buildSession` bei jeder Bewertung neu läuft) und wechselt erst am
+nächsten Tag.
 
 **Akzent-Prüfung** (`spanish.js`, `checkSpanish`): Ergebnis `correct` |
 `accents` | `wrong`. Normalisiert Groß-/Kleinschreibung und ¿¡?!.,; führende

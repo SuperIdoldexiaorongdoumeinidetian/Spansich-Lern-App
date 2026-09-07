@@ -32,7 +32,7 @@ IP-Adresse des Rechners verwenden (`npm run dev -- --host`).
 | Tab | Was er macht |
 |---|---|
 | **Übersicht** | Gelernte Karten, heute fällige Wiederholungen, Streak, Fortschritt pro Lektion, Reviews der letzten 30 Tage |
-| **Lernen** | Flashcards mit Spaced Repetition (Anki-ähnlich). Decks und Kartenrichtungen (Spanisch→Deutsch, Deutsch→Spanisch) wählbar, Eigennamen standardmäßig ausgeschlossen, neue Karten pro Tag begrenzt (Standard 10). Aussprache über die Stimme des Geräts (bevorzugt es-MX) |
+| **Lernen** | Flashcards mit Spaced Repetition (Anki-ähnlich). Decks und Kartenrichtungen (Spanisch→Deutsch, Deutsch→Spanisch) wählbar, Eigennamen standardmäßig ausgeschlossen, neue Karten pro Tag begrenzt (Standard 10) und in zufälliger Reihenfolge statt nach Listenreihenfolge; fällige Wiederholungen kommen weiterhin zuerst. Aussprache über die Stimme des Geräts (bevorzugt es-MX) |
 | **Quiz** | Multiple Choice (beide Richtungen) und „Deutsch → Spanisch schreiben" (Texteingabe). Beeinflusst den Lernstand nicht |
 | **Vokabeln** | Nachschlage-Liste mit Suche (akzent-unabhängig, Spanisch oder Deutsch), Lektionsfilter, Aussprache, Lernstatus und Beispielsätzen |
 | **Grammatik** | Grammatikthemen mit Erklärung, Tabellen (z. B. Konjugation), Beispielsätzen und Lückentext-Übungen |
